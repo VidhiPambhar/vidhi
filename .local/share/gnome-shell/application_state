@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="snap-store_ubuntu-software.desktop" score="0" last-seen="1641529560"/>
+    <application id="mattermost-desktop.desktop" score="514" last-seen="1641961789"/>
+    <application id="org.gnome.Nautilus.desktop" score="67" last-seen="1641893280"/>
+    <application id="org.gnome.FileRoller.desktop" score="4" last-seen="1641538868"/>
+    <application id="google-chrome.desktop" score="973" last-seen="1641961793"/>
+    <application id="firefox.desktop" score="11301" last-seen="1641962062"/>
+    <application id="org.gnome.gedit.desktop" score="11" last-seen="1641882046"/>
+    <application id="code.desktop" score="5485" last-seen="1641885165"/>
+    <application id="org.gnome.Terminal.desktop" score="2422" last-seen="1641962063"/>
+    <application id="gnome-control-center.desktop" score="139" last-seen="1641875226"/>
+    <application id="update-manager.desktop" score="0" last-seen="1641873416"/>
+    <application id="sublime_text.desktop" score="525" last-seen="1641893919"/>
+  </context>
+</application-state>

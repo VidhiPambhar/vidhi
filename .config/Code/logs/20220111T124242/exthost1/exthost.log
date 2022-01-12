@@ -1,0 +1,10 @@
+[2022-01-11 12:42:45.208] [exthost] [info] Extension host with pid 20028 started
+[2022-01-11 12:42:45.208] [exthost] [info] Skipping acquiring lock for /home/vidhi/.config/Code/User/workspaceStorage/4de7b2637f661aadd8c366b4b46c69de.
+[2022-01-11 12:42:45.384] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-01-11 12:42:45.400] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-01-11 12:42:45.413] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-01-11 12:42:45.416] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-01-11 12:42:45.419] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: true, activationEvent: '*'
+[2022-01-11 12:42:46.334] [exthost] [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: true, activationEvent: '*'
+[2022-01-11 12:42:46.369] [exthost] [info] extension host terminating: parent process 19995 does not exist anymore: kill ESRCH (code: ESRCH) (errno: -3)
+[2022-01-11 12:42:46.370] [exthost] [info] Extension host with pid 20028 exiting with code 0

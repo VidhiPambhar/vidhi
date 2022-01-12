@@ -1,0 +1,61 @@
+{
+   "checksum": "bbe1de73d3f364b885c76f3eee015f1d",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13285676073453208",
+            "guid": "77a0032f-b080-44f0-b642-ae80f0074517",
+            "id": "5",
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService"
+         }, {
+            "date_added": "13285676073454107",
+            "guid": "26e0b6c3-dad1-4d07-9bcc-555061e63c99",
+            "id": "6",
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://youtube.com/"
+         }, {
+            "date_added": "13285676073454766",
+            "guid": "90b3120e-60d4-44ad-8595-cf22c0bf399e",
+            "id": "7",
+            "name": "Maps",
+            "type": "url",
+            "url": "https://maps.google.com/"
+         }, {
+            "date_added": "13286263511779647",
+            "guid": "260825f8-cfb2-4b54-9c64-f09f6cf6e9e1",
+            "id": "10",
+            "name": "https://ess.infibeam.ooo/COSEC/Login.aspx",
+            "type": "url",
+            "url": "https://ess.infibeam.ooo/COSEC/Login.aspx"
+         } ],
+         "date_added": "13285676057522868",
+         "date_modified": "13286263511779647",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13285676057522870",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13285676057522871",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

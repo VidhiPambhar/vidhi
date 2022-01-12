@@ -1,0 +1,24 @@
+[2022-01-07 10:01:00.887] [renderer1] [error] [Extension Host] (node:4614) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2022-01-07 10:01:02.526] [renderer1] [warning] [File Watcher (parcel)] correcting a path to watch that seems to be a symbolic link (original: /home/vidhi/Documents/Javascript, real: /home/vidhi/Documents/javascript)
+[2022-01-07 10:01:02.530] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/vidhi/Documents/Javascript)
+[2022-01-07 10:01:02.533] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-07 10:01:03.308] [renderer1] [warning] [File Watcher (parcel)] correcting a path to watch that seems to be a symbolic link (original: /home/vidhi/Documents/Javascript, real: /home/vidhi/Documents/javascript)
+[2022-01-07 10:01:03.316] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/vidhi/Documents/Javascript)
+[2022-01-07 10:01:03.319] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-07 10:01:05.827] [renderer1] [warning] [File Watcher (parcel)] correcting a path to watch that seems to be a symbolic link (original: /home/vidhi/Documents/Javascript, real: /home/vidhi/Documents/javascript)
+[2022-01-07 10:01:05.829] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/vidhi/Documents/Javascript)
+[2022-01-07 10:01:05.831] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-07 10:01:06.054] [renderer1] [warning] [File Watcher (parcel)] correcting a path to watch that seems to be a symbolic link (original: /home/vidhi/Documents/Javascript, real: /home/vidhi/Documents/javascript)
+[2022-01-07 10:01:06.055] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/vidhi/Documents/Javascript)
+[2022-01-07 10:01:06.056] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-07 10:01:06.224] [renderer1] [warning] [File Watcher (parcel)] correcting a path to watch that seems to be a symbolic link (original: /home/vidhi/Documents/Javascript, real: /home/vidhi/Documents/javascript)
+[2022-01-07 10:01:06.224] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/vidhi/Documents/Javascript)
+[2022-01-07 10:01:06.226] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-07 10:01:06.441] [renderer1] [warning] [File Watcher (parcel)] correcting a path to watch that seems to be a symbolic link (original: /home/vidhi/Documents/Javascript, real: /home/vidhi/Documents/javascript)
+[2022-01-07 10:01:06.443] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/vidhi/Documents/Javascript)
+[2022-01-07 10:01:06.444] [renderer1] [error] [File Watcher (parcel)] gave up attempting to restart watcher after error: Bad file descriptor
+[2022-01-07 10:01:33.418] [renderer1] [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/vidhi/Documents/Javascript/icecream_callhell.js' (Error: File Modified Since) file:///home/vidhi/Documents/Javascript/icecream_callhell.js
+[2022-01-07 10:10:09.976] [renderer1] [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/vidhi/Documents/Javascript/icecream_callhell.js' (Error: File Modified Since) file:///home/vidhi/Documents/Javascript/icecream_callhell.js
+[2022-01-07 10:10:14.814] [renderer1] [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/vidhi/Documents/Javascript/icecream_callhell.js' (Error: File Modified Since) file:///home/vidhi/Documents/Javascript/icecream_callhell.js
+[2022-01-07 10:10:23.650] [renderer1] [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/vidhi/Documents/Javascript/icecream_callhell.js' (Error: File Modified Since) file:///home/vidhi/Documents/Javascript/icecream_callhell.js

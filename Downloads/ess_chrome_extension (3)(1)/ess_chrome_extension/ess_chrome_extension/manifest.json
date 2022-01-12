@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "Daily Timing",
+  "description": "This extension shows total hours of a day in ESS. Developer : Edited By Gaurang Trivedi",
+  "version": "1.1",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": [
+        "https://ess.infibeam-inc.ooo/COSEC/WebForms/frmDailyAttendanceView.aspx?ID=12050&HelpID=12050",
+        "https://ess.infibeam-inc.ooo/COSEC/WebForms/frmAtdSummary.aspx?ID=12007&HelpID=12007",
+		"https://ess.infibeam.ooo/COSEC/WebForms/frmDailyAttendanceView.aspx?ID=12050&HelpID=12050",
+        "https://ess.infibeam.ooo/COSEC/WebForms/frmAtdSummary.aspx?ID=12007&HelpID=12007"
+      ],
+      "js": ["jquery.js","moment.js","moment-duration-format.js","main.js"],
+      "all_frames": true
+    }
+  ],
+  "permissions": [
+    "webRequest",
+	"https://ess.infibeam.ooo/*"
+  ],
+  "background": {
+    "scripts": ["page.js"],
+    "persistent": true
+  }
+}

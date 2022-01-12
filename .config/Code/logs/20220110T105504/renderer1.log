@@ -1,0 +1,20 @@
+[2022-01-10 10:55:07.433] [renderer1] [error] [Extension Host] (node:7708) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2022-01-10 10:55:08.718] [renderer1] [warning] [File Watcher (parcel)] correcting a path to watch that seems to be a symbolic link (original: /home/vidhi/Documents/Javascript, real: /home/vidhi/Documents/javascript)
+[2022-01-10 10:55:08.725] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/vidhi/Documents/Javascript)
+[2022-01-10 10:55:08.730] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-10 10:55:09.205] [renderer1] [warning] [File Watcher (parcel)] correcting a path to watch that seems to be a symbolic link (original: /home/vidhi/Documents/Javascript, real: /home/vidhi/Documents/javascript)
+[2022-01-10 10:55:09.208] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/vidhi/Documents/Javascript)
+[2022-01-10 10:55:09.209] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-10 10:55:09.845] [renderer1] [warning] [File Watcher (parcel)] correcting a path to watch that seems to be a symbolic link (original: /home/vidhi/Documents/Javascript, real: /home/vidhi/Documents/javascript)
+[2022-01-10 10:55:09.854] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/vidhi/Documents/Javascript)
+[2022-01-10 10:55:09.860] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-10 10:55:10.534] [renderer1] [warning] [File Watcher (parcel)] correcting a path to watch that seems to be a symbolic link (original: /home/vidhi/Documents/Javascript, real: /home/vidhi/Documents/javascript)
+[2022-01-10 10:55:10.547] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/vidhi/Documents/Javascript)
+[2022-01-10 10:55:10.548] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-10 10:55:10.973] [renderer1] [warning] [File Watcher (parcel)] correcting a path to watch that seems to be a symbolic link (original: /home/vidhi/Documents/Javascript, real: /home/vidhi/Documents/javascript)
+[2022-01-10 10:55:10.977] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/vidhi/Documents/Javascript)
+[2022-01-10 10:55:10.980] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-10 10:55:11.534] [renderer1] [warning] [File Watcher (parcel)] correcting a path to watch that seems to be a symbolic link (original: /home/vidhi/Documents/Javascript, real: /home/vidhi/Documents/javascript)
+[2022-01-10 10:55:11.538] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/vidhi/Documents/Javascript)
+[2022-01-10 10:55:11.538] [renderer1] [error] [File Watcher (parcel)] gave up attempting to restart watcher after error: Bad file descriptor

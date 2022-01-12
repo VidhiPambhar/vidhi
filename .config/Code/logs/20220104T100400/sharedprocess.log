@@ -1,0 +1,7 @@
+[2022-01-04 10:04:03.238] [sharedprocess] [info] Starting worker process with pid 5437 (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-04 10:04:25.681] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
+[2022-01-04 10:04:26.850] [sharedprocess] [info] Downloaded extension: esbenp.prettier-vscode /home/vidhi/.config/Code/CachedExtensionVSIXs/esbenp.prettier-vscode-9.1.0
+[2022-01-04 10:04:27.472] [sharedprocess] [info] Extracted extension to /home/vidhi/.vscode/extensions/.14de2d73-582d-4214-be7c-d295364ea2b2: esbenp.prettier-vscode
+[2022-01-04 10:04:27.479] [sharedprocess] [info] Renamed to /home/vidhi/.vscode/extensions/esbenp.prettier-vscode-9.1.0
+[2022-01-04 10:04:27.481] [sharedprocess] [info] Extracting completed. esbenp.prettier-vscode
+[2022-01-04 10:04:27.484] [sharedprocess] [info] Extension installed successfully: esbenp.prettier-vscode

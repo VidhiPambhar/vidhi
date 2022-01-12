@@ -1,0 +1,156 @@
+<!DOCTYPE html><!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie9"> <![endif]--><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,maximum-scale=1,user-scalable=0"><meta name="title" content="Send Anywhere"><meta name="description" content="The easiest way to share files across all of your devices. Send files of any size and type, as many times as you want, all for free!"><meta name="keywords" content="Send Anywhere, File transfer, Send large files, email large files, File sharing, Share files online, Transfer files, Send large files free, wifi file transfer, transfer data, iOS, Android, Windows, macOS, Linux, Outlook add-in, Gmail, Chrome extension, Wifi direct, Cross platform"><title>Send Anywhere</title><link rel="apple-touch-icon" sizes="76x76" href="/assets/img/brand/logo-76.1638822862000.png?ut=811280"><link rel="apple-touch-icon" sizes="120x120" href="/assets/img/brand/logo-120.1638822862000.png?ut=811280"><link rel="apple-touch-icon" sizes="152x152" href="/assets/img/brand/logo-152.1638822862000.png?ut=811280"><link rel="apple-touch-icon-precomposed" href="/assets/img/brand/logo-60.1638822862000.png?ut=811280"><link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/img/brand/logo-76.1638822862000.png?ut=811280"><link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/img/brand/logo-120.1638822862000.png?ut=811280"><link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/img/brand/logo-152.1638822862000.png?ut=811280"><!-- Naver webmaster verification--><meta name="naver-site-verification" content="8331129f372b25bfe5a8b585dee7828755a5fb0e"><!-- schema.org ld+json data -->
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Send Anywhere",
+        "url": "https://send-anywhere.com/",
+        "sameAs": [
+            "https://itunes.apple.com/app/apple-store/id596642855",
+            "https://play.google.com/store/apps/details?id=com.estmob.android.sendanywhere",
+            "http://blog.naver.com/estmob",
+            "https://www.facebook.com/Send2Anywhere",
+            "https://www.instagram.com/send_anywhere"
+        ]
+    }
+</script>
+
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "https://send-anywhere.com/",
+        "name": "Send Anywhere",
+        "sameAs": [
+            "https://itunes.apple.com/app/apple-store/id596642855",
+            "https://play.google.com/store/apps/details?id=com.estmob.android.sendanywhere",
+            "http://blog.naver.com/estmob",
+            "https://www.facebook.com/Send2Anywhere",
+            "https://www.instagram.com/send_anywhere"
+        ]
+    }
+</script> 
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Send Anywhere for ANDROID",
+        "operatingSystem": "ANDROID",
+        "applicationCategory": "Business/Production",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "267394"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "downloadUrl": "https://play.google.com/store/apps/details?id=com.estmob.android.sendanywhere"
+    }
+</script>
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Send Anywhere for iOS",
+        "operatingSystem": "iOS",
+        "applicationCategory": "Business/Production",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "ratingCount": "69967"
+        },
+        "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+        },
+        "downloadUrl": "https://itunes.apple.com/app/apple-store/id596642855"
+    }
+</script>
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Send Anywhere for Windows",
+        "operatingSystem": "Windows",
+        "downloadUrl": "https://send-anywhere.com/file-transfer",
+        "applicationCategory": "Business/Production",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+</script>
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Send Anywhere for OSX",
+        "operatingSystem": "OSX",
+        "downloadUrl": "https://send-anywhere.com/file-transfer",
+        "applicationCategory": "Business/Production",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+</script><!-- chrome extension inline install--><link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/amjmjholfoknokffkiolahocokcaecnc"><link rel="shortcut icon" href="/assets/img/favicon.1638822862000.ico?ut=811280"><link rel="stylesheet" href="/assets/css/base/font.1638822860000.css?ut=811280"><link rel="stylesheet" href="/assets/css/base/font-roboto.1638822860000.css?ut=811280"><link rel="stylesheet" href="/assets/css/base/font-awesome.min.1638822860000.css?ut=811280"><link rel="stylesheet" href="/assets/css/base/sa-icon-font.1638822860000.css?ut=811280"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"><!-- og--><meta property="og:description" content="Send whatever you want, wherever you want"><meta property="og:image" content="https://send-anywhere.com/assets/img/brand/og_logo.png"><meta property="og:title" content="Send Anywhere"><meta property="og:locale" content="en_US"><meta property="og:locale:alternate" content="ko_KR"><meta property="og:locale:alternate" content="ja_JP"><!-- google login--><script src="//apis.google.com/js/platform.js"></script><noscript><img height="1" width="1" src="//www.facebook.com/tr?id=1341760472609957&amp;ev=PageView&amp;noscript=1"></noscript><!-- AdManager--><script src="//www.googletagservices.com/tag/js/gpt.js" async></script><!-- AdSense--><script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script><!-- Criteo Loader--><script src="/assets/js/criteo.1638822862000.js?ut=811280" async type="text/javascript"></script><!-- Zendisk--><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=877461a8-d910-4224-a4ad-2cbdc3192800"></script><script type="text/javascript">window.zESettings = {
+webWidget: {
+position: { horizontal: 'left' },
+offset: { vertical: '35px' }
+}
+};
+</script><noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=eQzFo1IWx810/9" style="display:none" height="1" width="1" alt=""></noscript><!-- STRIPE--><script id="stripe-script" type="text/javascript" src="//js.stripe.com/v3/" async></script><!-- Naver Analytics--><script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script><script type="text/javascript">if(!wcs_add) var wcs_add = {};
+  wcs_add["wa"] = "ce4000b198d5a0";
+if(window.wcs) {
+  wcs_do();
+} 
+</script><script type="text/javascript">window.serverData = {"CDN":"","feed_endpoint":"https://feed.send-anywhere.com/api"} || {};</script><script type="text/javascript" src="/assets/js/header.1638822862000.js?ut=811280"></script></head><body ondragstart="return false;" ondrop="return false;"><div id="root"></div><div id="not-support" style="display:none"><h2>Your browser is not supported. Please update your browser.</h2><a href="http://outdatedbrowser.com" target="_blank">Update Browser</a></div><script type="text/javascript" src="/static/js/vendor.73c8ad7b.js"></script><script type="text/javascript" src="/static/js/app.f9e50233.js"></script></body></html>Extª       a×æga×òCÓµ       J    O^partitionKey=%28https%2Csend-anywhere.com%29,:https://send-anywhere.com/ necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 OK
+content-type: text/html; charset=utf-8
+content-length: 8431
+strict-transport-security: max-age=15552000; includeSubDomains
+etag: W/"20ef-txEvnh4vbofx8RyCX3WxCft+rz4"
+date: Fri, 07 Jan 2022 07:06:15 GMT
+x-amz-cf-id: ycfkvBMxtv3C47gAJxbjtp2as2U01Z4laoliNxRh65WZbwF2NCowEA==
+server: nginx/1.16.1
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+cache-control: no-cache
+x-cache: Miss from cloudfront
+via: 1.1 121cf5cd015c9b81b55863429004930a.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEL51-P1
+X-Firefox-Spdy: h2
+ original-response-headers content-type: text/html; charset=utf-8
+content-length: 8431
+date: Fri, 07 Jan 2022 07:00:30 GMT
+server: nginx/1.16.1
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+set-cookie: i18next=en-US; path=/; expires=Sat, 07 Jan 2023 07:00:30 GMT
+etag: W/"20ef-txEvnh4vbofx8RyCX3WxCft+rz4"
+cache-control: no-cache
+x-cache: Miss from cloudfront
+via: 1.1 121cf5cd015c9b81b55863429004930a.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEL51-P1
+x-amz-cf-id: oZl0-jaCWZIQ_7_gkxKpkHVV5zyJoaONi95NRswptXdQqWPlgAQRdQ==
+X-Firefox-Spdy: h2
+ ctid 1 uncompressed-len 0 net-response-time-onstart 626 net-response-time-onstop 666    ï

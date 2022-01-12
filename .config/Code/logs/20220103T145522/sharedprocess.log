@@ -1,0 +1,27 @@
+[2022-01-03 15:06:07.340] [sharedprocess] [info] Starting worker process with pid 14758 (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-03 16:28:05.282] [sharedprocess] [info] Worker process with pid 14758 terminated normally (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-03 16:28:06.362] [sharedprocess] [info] Starting worker process with pid 21771 (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-03 16:34:46.302] [sharedprocess] [info] Installing extension: dimitarnonov.jellybeans-theme
+[2022-01-03 16:34:48.406] [sharedprocess] [info] Downloaded extension: dimitarnonov.jellybeans-theme /home/vidhi/.config/Code/CachedExtensionVSIXs/dimitarnonov.jellybeans-theme-1.13.0
+[2022-01-03 16:34:48.439] [sharedprocess] [info] Extracted extension to /home/vidhi/.vscode/extensions/.995be8d6-1e16-425c-8fd3-579bd4ed2dc8: dimitarnonov.jellybeans-theme
+[2022-01-03 16:34:48.445] [sharedprocess] [info] Renamed to /home/vidhi/.vscode/extensions/dimitarnonov.jellybeans-theme-1.13.0
+[2022-01-03 16:34:48.446] [sharedprocess] [info] Extracting completed. dimitarnonov.jellybeans-theme
+[2022-01-03 16:34:48.448] [sharedprocess] [info] Extension installed successfully: dimitarnonov.jellybeans-theme
+[2022-01-03 16:42:32.196] [sharedprocess] [info] Installing extension: ritwickdey.liveserver
+[2022-01-03 16:42:34.321] [sharedprocess] [info] Downloaded extension: ritwickdey.liveserver /home/vidhi/.config/Code/CachedExtensionVSIXs/ritwickdey.liveserver-5.6.1
+[2022-01-03 16:42:36.199] [sharedprocess] [info] Extracted extension to /home/vidhi/.vscode/extensions/.fe30b0be-b498-4c8b-b636-243e86cdbe44: ritwickdey.liveserver
+[2022-01-03 16:42:36.217] [sharedprocess] [info] Renamed to /home/vidhi/.vscode/extensions/ritwickdey.liveserver-5.6.1
+[2022-01-03 16:42:36.217] [sharedprocess] [info] Extracting completed. ritwickdey.liveserver
+[2022-01-03 16:42:36.219] [sharedprocess] [info] Extension installed successfully: ritwickdey.liveserver
+[2022-01-03 16:42:56.429] [sharedprocess] [info] Installing extension: compulim.vscode-express
+[2022-01-03 16:42:58.502] [sharedprocess] [info] Downloaded extension: compulim.vscode-express /home/vidhi/.config/Code/CachedExtensionVSIXs/compulim.vscode-express-0.0.5
+[2022-01-03 16:42:59.910] [sharedprocess] [info] Extracted extension to /home/vidhi/.vscode/extensions/.0f60db63-6b9a-4e6d-913a-51fbdf96fa5c: compulim.vscode-express
+[2022-01-03 16:42:59.924] [sharedprocess] [info] Renamed to /home/vidhi/.vscode/extensions/compulim.vscode-express-0.0.5
+[2022-01-03 16:42:59.931] [sharedprocess] [info] Extracting completed. compulim.vscode-express
+[2022-01-03 16:42:59.932] [sharedprocess] [info] Extension installed successfully: compulim.vscode-express
+[2022-01-03 16:49:34.901] [sharedprocess] [info] Installing extension: zhuangtongfa.material-theme
+[2022-01-03 16:49:35.873] [sharedprocess] [info] Downloaded extension: zhuangtongfa.material-theme /home/vidhi/.config/Code/CachedExtensionVSIXs/zhuangtongfa.material-theme-3.13.9
+[2022-01-03 16:49:36.002] [sharedprocess] [info] Extracted extension to /home/vidhi/.vscode/extensions/.393af44f-143f-4bd7-a462-69b4dbe81e78: zhuangtongfa.material-theme
+[2022-01-03 16:49:36.010] [sharedprocess] [info] Renamed to /home/vidhi/.vscode/extensions/zhuangtongfa.material-theme-3.13.9
+[2022-01-03 16:49:36.011] [sharedprocess] [info] Extracting completed. zhuangtongfa.material-theme
+[2022-01-03 16:49:36.016] [sharedprocess] [info] Extension installed successfully: zhuangtongfa.material-theme

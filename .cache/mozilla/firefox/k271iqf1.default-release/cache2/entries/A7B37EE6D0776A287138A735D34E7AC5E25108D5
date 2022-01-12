@@ -1,0 +1,550 @@
+Ôªø.gridheaderstyleSelected
+{
+   color: #500000;
+    background-position: right;
+    background-repeat: no-repeat;
+    font-family: Segoe UI;
+}
+
+.grid
+{
+    outline-style: none;
+}
+
+
+
+
+.gridheaderstyle
+{
+    color: #500000;
+    font-family: Segoe UI;
+    font-size: 12px;
+}
+
+.pnlcollapse
+{
+    display: none;
+}
+
+.gridheaderstyle th
+{
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    color: #500000;
+    padding: 4px 2px 4px 2px;
+    font-family: Segoe UI;
+    background-color: #dedede;
+    display:table-cell;
+    font-weight:normal;
+}
+
+.gridheaderstyle th a, .gridheaderstyle a
+{
+    text-decoration: none;
+    display: block;
+    color: #500000;
+    text-align: left;
+    font-family: Segoe UI;
+    background-color: #dedede;
+}
+
+.gridrowstyle
+{
+    font-family: Segoe UI;
+}
+
+.gridrowstyleWOBorder,.gridrowstyleInsideBorder
+{
+    font-family: Segoe UI;
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+}
+
+.gridrowstyle:hover TD, .gridAltRowStyle:hover TD, .gridrowstyleWOBorder:hover TD,.gridrowstyleInsideBorder:hover TD
+{
+    background-color: #dcd1d1;
+    font-family: Segoe UI;
+}
+
+.gridrowstyle td, .gridAltRowStyle td, .SelectedRowStyle td, .gridEditRowStyle td
+{
+    border: 1px solid #ffffff;
+    font-family: Segoe UI;
+}
+
+.gridrowstyleWOBorder td
+{
+    border-bottom: 0px solid #ffffff;
+    border-top: 0px solid #ffffff;
+    border-left: 0px solid #ffffff;
+    border-right: 0px solid #ffffff;
+    font-family: Segoe UI;
+}
+
+.gridrowstyleInsideBorder td
+{
+     border-bottom: 0px solid #ffffff;
+    border-top: 0px solid #ffffff;
+    border-left: 0px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    font-family: Segoe UI;
+}
+
+.gridrowstyle a, .gridrowstyleWOBorder a,gridrowstyleInsideBorder a, .gridAltRowStyle a, .SelectedRowStyle a
+{
+    outline-style: none;
+    display: block;
+    white-space: nowrap;
+    font-family: Segoe UI;
+    color: #3a3939;
+}
+
+.gridrowstyle td, .gridrowstyleWOBorder td,gridrowstyleInsideBorder td, .gridAltRowStyle td, .SelectedRowStyle td, .gridEditRowStyle td, .gridrowstyle a, .gridAltRowStyle a, .SelectedRowStyle a, .gridEditRowStyle a
+{
+    color: #3a3939;
+    vertical-align: middle;
+    text-decoration: none;
+    line-height: 20px;
+    font-family: Segoe UI;
+}
+
+.gridEditRowStyle td, .gridEditRowStyle td a
+{
+    background-color: #dddddd;
+    color: Black;
+    font-family: Segoe UI;
+}
+
+.gridrowstyle td,.gridrowstyleWOBorder td,.gridrowstyleInsideBorder td
+{
+    background-color: #e9e9e9;
+    color: #3a3939;
+}
+
+.gridrowstyleWOBorder td,.gridrowstyleInsideBorder td
+{
+    background-color: #e9e9e9;
+}
+
+.gridAltRowStyle td
+{
+    background-color: #e9e9e9;
+}
+
+.SelectedRowStyle td, .SelectedRowStyle a
+{
+    background-color: #c4a3a3;
+    color: #3a3939;
+    font-weight: normal;
+}
+
+.GridPager
+{
+     border: 1px solid white; /*line-height:10px;     font-weight: bold;     color: Black;     font-family: Segoe UI; 	font-size: 2px;		     height:10px;        */ /*text-decoration: underline;*/
+    background-color: #dedede;
+}
+
+.EmptyGridRow
+{
+    text-align:center;
+    background-color:#dedede;
+    font-family:Segoe UI;     
+    font-weight:bold;   
+    color:Red;
+    border:1px solid white;    
+}
+
+.EmptyGridRow td
+{        
+   border:0px solid white;     
+}
+
+.GridPager table
+{
+    /*margin: 5px 0;*/
+}
+
+.GridPager td
+{
+    padding: 0 3px;    
+     border:0px solid white;
+}
+
+.GridPager a
+{
+    color: #a7a7a7;
+    text-decoration: none;
+}
+
+.GridPager a:hover, .GridPager a:active, .GridPager a:visited
+{
+    text-decoration: none;
+    color: #3a3939;
+}
+
+
+.GridOptionSelection a
+{
+    padding: 3px 3px 3px 10px;
+    display: block;
+}
+
+.GridOptionSelection a:hover
+{
+    background-color: #dfebda;
+}
+
+.GridRowDeleteButton, .GridRowDeleteButton:hover
+{
+    width: 12px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center; /* background-color:#2b5f84;*/
+}
+.GridDeleteHeader
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 11px;
+    height: 17px;
+}
+
+
+.GridDeleteHeader
+{
+    background-image: url('WebResource.axd?d=eMdlXJ05NPZfQXOeFWdE4evXRtfbWWez4QLOAdzg80Rtjt3VHyRxeuVnBApHTHz0P6mXhrMCCSi99LWUT_ibt9KMVFat7dv0_aQaD5d1IZ516kVbRCm-zojsvxqCmVUaccwH67zuqVHcvslYqh6cIAxCcs5Dzg_Cfh_5f1KxXHeiXEIsg_fgI7e2oJM9J83d0&t=635591840200000000'); /*  background-color:#2b5f84;*/
+}
+
+.GridRowDeleteButton
+{
+    background-image: url('WebResource.axd?d=-jmmlCj-PAn4zV81_7rSnwoq2uQhsraoIEurdHXubY2gH9hQ4qZNtdtx5guffhB43jmRZtzHH-hwZJFb-jctkiPdngdjEKNwGDoH2teOkZ11KL_IUdEgl_2-q90Yali33gf5BfqJV5wh9C-VtmDJw1FBRU7KhKEnMZWh0XrsiMhsye8ow-fZlAJ56KUfD7np0&t=635591840200000000');
+}
+
+.GridRowDeleteButton:hover
+{
+    background-image: url('WebResource.axd?d=blzPHu60_rYK4PIxCJRmtXoKjxP3xg_KwTL7b3ZsEB2S95sxGwWf2wWwRUimnTkPncEx7PoNthUL7AIUMVlRbFi9t6wGAynojcEneLDLVTeF0294VZn7W9dN7oDv1nVhOL6K1StSj6e5QKWkaNhPasFAvEXXa-oPzBG1y1nJf7nTapybJZ8BRA6xmeXFujr70&t=635591840200000000');
+}
+
+.GridRowEditButton, .GridRowEditButton:hover, .GridEditHeader
+{
+    display: block;
+    width: 20px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.GridEditHeader
+{
+    background-image: url('WebResource.axd?d=eUtaEknXRkIiMNgOKnI2_XmY7-M4_JWFwNdNnwyhFWkd-rHzmFotHSks5npdKEWDdl7CygmgYxgTJeC9YzqAEBNXOi0W29Rk55OZ3FqcVjeC7cNKxM-9berkhrF76PrIoywFyT-voPSyfZWeBK6U4mAVdOV37fKqxrYvB5e23WPizvaq-YTseC0kP4OCGgkl0&t=635591840200000000');
+}
+
+.GridRowEditButton
+{
+    background-image: url('WebResource.axd?d=VIUX1PKUbc_1EKpLXlZcTeb1lx6k_FI3FqbLcYLsgS6L9o19gTOFNlRo6ycrvRFUcSpjok0xuYkUUKsINlAh4iLWAqcqGn7niNjwXufgVIvjOXdFqSQHW1YIvQruTYCvx0r-o4nPeJrbOzSfrv5URPFd0Xdq49_YR0kiw2kGrv3KW5H8nqFvGyHU6K4m7K190&t=635591840200000000');
+}
+
+.GridRowEditButton:hover
+{
+    background-image: url('WebResource.axd?d=8bseK45YceJgzvHh4cz3Qt6PG9jG8X-wPV9cBiNCFCg_axkEIEDDhgMd9bTe_cecix72Mo3L83RJZk9ERrBo5pKsytfyhvNBiI6jAgK7fyzGHKlU9eJ7Ja3N5ccN9UU36PToNuN9IJrQjTtwn7SPHwGS1JOu16rC776Mrffy03WZgaZboTXYPI4i4-0N4aEf0&t=635591840200000000');
+}
+
+
+.GridMapInfo, .GridMapInfo:hover
+{
+    width: 10px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.GridMapInfoHeader
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10px;
+    height: 16px;
+}
+
+.GridMapInfoHeader
+{
+    background-image: url('WebResource.axd?d=ycrHeqKEi2qMk2x2gXTc0xdqGmeKrXVTgrr4BID73_b9yTrLeOZqQ1cizdZbd22ixTvgw8GjMtRe7xacNBKi-S4S2XjdeT3oTqY5l6t7loWIrqjWVEnkHgCP7R_iDcfJZT6xeK_FvaJlDFRKmvIfN1Uu5yX_--6K246Z1TwSavKSNTf_-65JXfyYNY7DnTgA0&t=635591840200000000');
+}
+
+.GridMapInfo
+{
+    background-image: url('WebResource.axd?d=4Jn6pzBTBP-0zUQSMFFliv5C12DjcWsQsEC2KHsvVePEd2T4uns_puBSjllcy_5Ckhjgr0KMXq-sslB_tRIO1KncnakDL37jmpiTNEFCBMiMzc0xLnUnRAF_07PspFmtzKfI8zqhyVmC_T8NigmYAcWTc6adraaWAl3hLg_ysCc1&t=635591840200000000');
+}
+
+.GridMapInfo:hover
+{
+    background-image: url('WebResource.axd?d=QiMCvQr_1vJ3e3ZVSgy1RhTEOVZJ6QSZuRBa_wbNQ6ollaRLO81kO0zWyPmKA5g-ro1YUfRsztFjvrQx0-Qv9NqLi1n3dNUaicXBItKKqeGHVNprEA0wjXoKE6CsyzzLu9KNp6kIHgzO42fWbvtDvw2kHs_WRTL3hP0FjuXnZcOoWhP9m-IGBpi5ttkbo3bZ0&t=635591840200000000');
+}
+
+
+.GridRowCancelbtn, .GridRowCancelbtn:hover, .GridRowCancelbtnHeader
+{
+    display: block;
+    width: 11px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.GridRowCancelbtnHeader
+{
+    outline-style: none;
+    display: block;
+    width: 11px;
+    height: 16px;
+    vertical-align: middle;
+    background-image: url('WebResource.axd?d=1fyOi6otfhync3WRQ1n9QH5vhirZcbj1u2j8esilm0uJ7rTCNg8o9vhgNjHihW5CwEgK8gXfxy74Ykj71isfcMBDIwPl7nOd66YRI5_NPvYWRbahtoW7VveRv3rqKDmBbjvnBfcmIWYsXe4KpIVMay5FA3s6cMIb0H8EYmBcp2Urowgn7d-JFYO8eWGxPoYw0&t=635591840200000000');
+}
+
+.GridRowCancelbtn
+{
+    outline-style: none;
+    display: block;
+    width: 11px;
+    height: 16px;
+    vertical-align: middle;
+    background-image: url('WebResource.axd?d=mmy481g2zl6ybdko7-uk3fbFD8HzUo4OHIXBvAsvzwhqxoKfi-mXBe91wjDozf8gxJ3XOduHUuvfvFAT3-KiXRLFkOsTwwUDC-1XoEeN-a0Eqo41yWey0tm9z9Bh2gUcf20EAdZqzWGQFk52LcVEH2tjn0wK4XHa5ZosIytg6sv7rdpeWibWHYDFECkAyJwI0&t=635591840200000000');
+}
+
+.GridRowCancelbtn:hover
+{
+    width: 11px;
+    height: 16px;
+    vertical-align: middle;
+    background-image: url('WebResource.axd?d=VFWPdulxyFl6-0cxF3ULoSZDw_kgNSkOG8TKL0ZJpwlTK0e__ty85e9YeEOerUbkrQl1mCibKICifBVX6ekm9VpsTJMIUxW1cYqVkpERzMcRJ1ERXEyAeRjuyz9wIXCoOIWVZ14uV6PU1ZmzwXA_qtCWqVw_pCpkq9AhZXuF38ee8YBzgl7NbNkxCfDo1j-Q0&t=635591840200000000');
+}
+
+.GridRowInfoIcon
+{
+    display: block;
+    width: 19px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('WebResource.axd?d=jPXosou6r3KT4zAYlrEVd_J2do579orbUkKxdl-i-eXr61e8rj4RM9Cj8yrl7x7jQx3XSes9JtI9CL_LZOQb3aLtGAeBndg7NRSh_8_HoeSVQqGwISJG__LbOwHbnqHlnzJmvp6L0wfBXrkeUbtVYaTz5tlEEtAzh9xn8SIfaUQ1&t=635591840200000000');
+}
+.GridRowInfoIcon:hover
+{
+    background-image: url('WebResource.axd?d=GrufuEO5lqlDtkoN14lybbpXa_B1HlJ5yn1SBBkuNvNxvMQ2t-OXLCrOo6xh8HcFccBDMUBipvGLqhEgBH2VmuOOitQqogbtO2J2NMO7258yPPdH71N6bBx1_WtDRcVgJsAnpp2gbVt99xN2usGvwVvTXiQKxQleLyvLNyjXuNu4seAs-yvvVzr_Rp_Hz8Ml0&t=635591840200000000');
+}
+
+
+.ImgPanelDoor
+{
+    outline-style: none;
+    display: block;
+    background-repeat: no-repeat;
+    height:20px;
+    width:18px;
+    margin-left: 13px;
+    background-image: url('WebResource.axd?d=0u4vURHjuGSW5nX0yzX6bhSv1SJwsp4bAXsOmNHRJbBSQFOs12OdDCLz3mvyZD7Mnd5z7yLZu7cNtX5ZJnS8o-8fIUQeGcLMUu8sff9HhnHUkj40XA2g5j01Tui4P5-D4V3C1aEWNYCHnkEn11GXcvC-YqRZgNMX2KjGoPXi2DFu9qYpW04UOx5fMLQ-UzrE0&t=635591840200000000');
+}
+
+.GridRowRestorebtn, .GridRowRestorebtn:hover, .GridRowRestorebtnHeader
+{
+    display: block;
+    width: 15px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.GridRowRestorebtnHeader
+{
+    background-image: url('WebResource.axd?d=K1udAjaEj888n-CQi2IleuTBAyanfx-fBv7ZKXo1ano3fXnWsh0vawLKWHwE_QCV_O9THlvNeslrFwmg_a9lKqA6nxIC8pkdDubI9cjES-IKuzCAIKG_bgoR5e5WZ_rkk2sFNtknRvWrR4cJZsKe9xfhK_XYbS3iS-1DbeJF6mHH8UeSCPCXRx91PbHcm9so0&t=635591840200000000');
+}
+
+.GridRowRestorebtn
+{
+    background-image: url('WebResource.axd?d=RoJtY-z2LhBPRWBei81TtkpAJr4dtYqmZ7JVC-cb4inlWCYW5V_FBfDPNYv9H7xjd5w54N9YQH83mR6TyEhwR8kHb5HkCcXhMl9O02K_PpjpuRQmk0CuOFGcLMYAuvNJ-vaVkAMFrcOzzB3uUF1sLJzq3yj2lx6PlM3b7b5237-tdNNfJsjXFyK0eiw7z0j90&t=635591840200000000');
+}
+
+.GridRowRestorebtn:hover
+{
+    background-image: url('WebResource.axd?d=Z9-X3po4rGkTG8A3djSwbxp2ggAzwWC7HYfofLgj6-3xr_aMmT6LxTE7riLydiA5VhCmgDJbuNtr2kIGX17VRj0-f65VhR_2g75lEvbX87NHsUECKlGrHAbOLiuxVV_Bl6zApt5b4nhUv0hdsZ-MPr691ZdN-YJceysPo5hc7xKpu6SMeK95Ku-7YgspvQyZ0&t=635591840200000000');
+}
+
+
+.GridRowSavebtn, .GridRowSavebtn:hover, .GridRowSavebtnHeader
+{
+    display: block;
+    width: 11px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.GridRowSavebtnHeader
+{
+    background-image: url('WebResource.axd?d=mKL3K3C8VAnnwmZT5WyuEOCqVBNOWUpdil4oZHG3-MdHJ5itrHXVK-1SQOlTJNhHHxcROMuctuqrepjiuen-CZCaejAk0Y5JmzIZXmXJqOBVib8wSZ0Po0aBdQuvnpF0iyk1h_JbhUuML2IYZb7D_T0lluRzgcO25I14IjCdxCjzlEcH8Fp6el9lF-a7jKuh0&t=635591840200000000');
+}
+
+.GridRowSavebtn
+{
+    background-image: url('WebResource.axd?d=eO3qf_WxInfAFdECbbJoFECulprVvEpLBL3AmFPj-hDTY-ZQItgBgA8uLp35NbcfqBiaYyQWZbQvqA7_P1INEaLTYuf8rs1AQvYKaKpPqrYOR5VaGQZD7Alp25b3fN8a1819KnCdjstB6A6gGXXa57PgYS8M65hkJlMNXJcCydViUNhzXj6idLh7eTlAUYsd0&t=635591840200000000');
+}
+
+.GridRowSavebtn:hover
+{
+    background-image: url('WebResource.axd?d=jcZByUfGleM2r1wpbspUpdNocZrqdylKTvlXhezDQxYEgtYVlo6_FCR-Z5CsgQDDftOkok68W_UuVRRqly09__IjeFc5QYtznUq_BzqSh1HXo0nacWlprdCVq2u4PlK4nnAl0kK92hldVggnHZyE4d57Dvu195pEfBL8cqbPDz2oJN7NuF6M6gUfGGSJGNI_0&t=635591840200000000');
+}
+
+.GridRowSettingbtn, .GridRowSettingbtn:hover, .GridRowSettingbtnHeader
+{
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.GridRowSettingbtnHeader
+{
+    background-image: url('WebResource.axd?d=GVu8amvDIBC_alHUBVjhY_c8eeMtAuVwap-Z50NIgu295hCVc7t7NOEN2rQuCMcH_e5YQpsiS1Q1yLhfm2u3fjrs_L5gQmQtwgm6SoNlIl7xJkNfX1wPWBNtftQyNQwj3ad8G_h2MaADb-edyRtoMhzgYLrFZYg0jCfQmwnV3n8qUUKMcyaGqeLLWBIBJbyv0&t=635591840200000000');
+}
+
+.GridRowSettingbtn
+{
+    background-image: url('WebResource.axd?d=LyYhhUR_xx7a0GWdKzOU6vLHVOGD9acy_Mi0vdF0qSsJfIEhOjutX4JdzpS7UjdxUv1Jcs8fO5DwMP_yaYWUv4VYKSvG7x7wXYFVCt0ZxRSqm7-gRaT_tiGtwaEmXQdmG54XGf32r4rkIQG8nWDp7xytUx2mQ5D97quMUqKowCBrhqjERetaocb4-auLafMn0&t=635591840200000000');
+}
+
+.GridRowSettingbtn:hover
+{
+    background-image: url('WebResource.axd?d=84io2asIG6PxvZ_o-7GnympUtOjW_IX_-tsjJU06z3Z9yKcFdlJ-yGenZrdDTYnZFAgRL4pkUYH4t8eWuTp0DhJJQLdkQ9CF8jLyI_ic2tUiWIV522-Kue57QSLqTjL4z9Gep8mUpzOvUYcfD6V3XIEKT283_oFX3LA6g5LKHoq08-tnQ5p_kbTbiS0dUH720&t=635591840200000000');
+}
+
+.GridRowUPbtn, .GridRowUPbtn:hover, .GridRowUPbtnHeader
+{
+    display: block;
+    width: 13px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.GridRowUPbtnHeader
+{
+    background-image: url('WebResource.axd?d=sVew2apWgkPq4B8Due7JekmEUiSDFVC3_R0mKXLPMq4p97VOZugH-8jqIgaTr7Vel3EeC6jLVq2MhAqPfJ-mjxCEt0zUg-xf0DqZNaxKOB5XKmFOeLD02aN49BqhxJPfqxUsN7zClFyNAwzMK9ipbEV4bxRRemaTAkMrOyvU10wo_7Ph9Br_dc45JN6KNnRs0&t=635591840200000000');
+}
+
+.GridRowUPbtn
+{
+    background-image: url('WebResource.axd?d=wiAqpwdTpynpkv1-cBAiIAxcstmQuW94v07ZtV4pyfU6IaDe84CiHPWi_xDMEL0-gr0D8PC85bYMj9smWxUg2QuWZQslQWiTXNj3oUkMIq_nW3fFiaVitloKENANlaBoDK3KYaaoCl5YlH27PLDLM19nvkXdSVAF7rkDQ5i7mAs1&t=635591840200000000');
+}
+
+.GridRowUPbtn:hover
+{
+    background-image: url('WebResource.axd?d=v0ydqjIVXNsnoYdzYWRS3j49p1-ram20FIcubW1zX5DFIl-iMTb8k5x6McHYylSlmVJ9h2EISCnBpF_9T0hxQGYjuPhl7GrOyoNUEy1_t1K6ohOMbZxTX7_0sIfwauNArG1ubJ4GgRjwomQRGmiALXxLKpoeTpZ8BgnSX5Bfx6AvpSPUTMNL4rf1dsj6KsVD0&t=635591840200000000');
+}
+
+.GridRowViewimg, .GridRowViewimg:hover, .GridRowViewimgHeader
+{
+    display: block;
+    width: 12px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.GridRowViewimgHeader
+{
+    background-image: url('WebResource.axd?d=kUmXvpTkg0cATtG7xTulgHT2qnPkghlNXPAmLGBTrzp-IK7v8HfkXcRImmMhBBhuG2hl9ylEBF8VYLoYeZpl2s2aWoYyl_GgDxh4eYYqcOWrmgK3QU_CHDrhAROHaNkdas8tfQjPvPYHBFObHHIGDp_tqempyvA-KSe1q8wzpHxu-vudevpga6ROsOt-PGFT0&t=635591840200000000');
+}
+
+.GridRowViewimg
+{
+    background-image: url('WebResource.axd?d=qtfduSOO7vRVtHspFz73QOpiggMgcRaZ9pEvgGyBfytLqKLKRqB-4w2b2U8pGmKq_h5MTb94Zk-E_cn4HSeAnrao88rEldhxfsWQYk2T8cDKyF19JjKxWtpAYTuMJaTF4kPZd_tlxpbqdgXvak8KKgl4rre6uVB4CVHDxCadbHltksFM6t9RWPZm4LPoV1Ne0&t=635591840200000000');
+}
+
+.GridRowViewimg:hover
+{
+    background-image: url('WebResource.axd?d=7QinnyhXFQrlAACHIewDucjrta1dMHRpyz6umFxriWmzzQQhU_FzmUM-cWmB7TF7QZxgDKRGTeB_MUoBR7uS91BxbAFtbgHcXq_3MzF9VetZbN-AtNkQ4i0DGqvRjZ2xRBkd5-WBzdTqzmHXPqPZyOYkcPBgTJ6RFXiRmeN0VLe8DVg-eCgJygHwuesIGcbh0&t=635591840200000000');
+}
+
+.GridRowDetail, .GridRowDetail:hover, .GridRowDetailHeader
+{
+    display: block;
+    width: 12px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.GridRowDetailHeader
+{
+    background-image: url('WebResource.axd?d=pDyG8mYyIQycgNqaSoSBJftRc3ZRUuSUeIV7tKLpCrKLaxr8paQI-AJa4TezHFaMS2304RvRXsg2PEp3TEnvv_jO8kBj1yHWDqDrqlVvwWFIMVEF-_vY8mDLrrs8fBe648HngyBPxJku4XXjFh842GYf1J_QWd7sBLf5K8bNtNt0jR_KqPsF6JK_V-SdOMKF0&t=635591840200000000');
+}
+
+.GridRowDetail
+{
+    background-image: url('WebResource.axd?d=8KC-KnGx4cprxUpKlbKn5wPkTJ1za95uyy84g962MK16aIA500UkBexU2fZSqW0aCaXdSnaMS1h8IZul14slzfZzt-8I9u0ui5Xa54WLMl8urvgP6TjJocjN-3MU_LrAlIkmmpIR9yxIwc8mE-yvI9wKatSkifb0FySqk9fYvmpVxL9TYC1b1AhjYVHYtePe0&t=635591840200000000');
+}
+
+.GridRowDetail:hover
+{
+    background-image: url('WebResource.axd?d=0Srhj9n4oWCv7JuDDAMfbq0lznj9gUSVQ_WQVnVvVb88ccwQkfRMXaCRg1elzPxe0l2sfboayr7igkGaqFM3qp6HnSa2WNoTubn3CFBhkT8Ho2XRKR1C_8OzJ00CqXqzBIi6AGwpOd-Nk9etvXaXJBAsh6b8fYN0fFlrXl9Iv_RxoR7t80SOOMCLRBqJnXZq0&t=635591840200000000');
+}
+
+.GridRowUpdatebtnHeader
+{
+    outline-style: none;
+    display: block;
+    width: 14px;
+    height: 16px;
+    vertical-align: middle;
+    background-image: url('WebResource.axd?d=m89rDTqpTx_-8Xuc59R3CMIUepYRdzz125qxT4_GP5uDrCP3iqNdBH2NeUuB_xGgYnpdcDCXXzZkzv_fq30OZdOGhzDZijsPPq09XtpgVF_LbxVD6EI0SHuRgvtp8_nRfuXGnEYYzQRVVhECeQtEryEzF6O3jyk7G85wS06izdaIDFu5l3ibJtmAeIHhxm8z0&t=635591840200000000');                                          
+     background-repeat: no-repeat;
+    background-position: center;
+}
+
+.GridRowUpdatebtn
+{
+    outline-style: none;
+    display: block;
+    width: 14px;
+    height: 16px;
+    vertical-align: middle;
+    background-image: url('WebResource.axd?d=m-oF7Y4aetmIdLOwfF3CVE6xU1fWbFRlXHyXoF83UZfSb9jPU9juD6SQj2jPXouhhhgOvIWU_uD705vFleykSCetVrVPv1TF3TCIYs1oy0dRq-ehB53xA0A6BWAAloXTlqh8zHRapkuG_RIFDyUOf81uzX1Ca5Xdx5DfbpDLnwY1&t=635591840200000000');
+}
+
+.GridRowUpdatebtn:hover
+{
+    width: 14px;
+    height: 16px;
+    vertical-align: middle;
+    background-image: url('WebResource.axd?d=WXYX6hHOCTLyAU0nF3o5cj48Rsz_OF_jSh2b06QEHrXaq9YChIpm2w_VI42GvsF7yywvbYflOCAW7S2ZnmGouSAuOFjppJto5WUVrpSH37lqSAZ8PS1rRusrWf52AJw5aKTJ1h_pUNeLxNQlwIi0zDZTPfMs-tCS7B-3pWkKzPlDgeDqk4tZXcHKdjnI8Wiu0&t=635591840200000000');
+}
+
+.btnRemoveAdjHours:hover
+{
+   /*  width: 12px;
+    height: 20px;
+    vertical-align:middle;
+    background-image: url('WebResource.axd?d=SxNpfvob6TOGxuDra97-h1wQKhUSeltPDqpgLJtafxoxMS1lxPF_I1-cpCQnldpvHq1q5DjJo-cGmuAz7ZFlEjqsFqc7Qif0J1ysBtaQk8qpVg643vGDvZ3zaD3HxeXq8Y7D3jojjcyC7AAFi4-2_5ZSi0bgjpJ_z5nkYfAgA8k1&t=635591840200000000');     
+    background-repeat: no-repeat;    
+    outline-style:none;
+    display:block;*/
+    background-color:#6e0000;
+}∏x17\l      a›∞a›ºC’lpcæ1≥      O^partitionKey=%28https%2Cinfibeam.ooo%29,:https://ess.infibeam.ooo/COSEC/WebResource.axd?d=XzBaOSugZ_BoveQwZS3lAAnHdCYahWn6lJSP53F_ML5shDr0yYC5ByLtrscKWLQc3bY5RANLG7Ym7drXb6Nj1N8tJDcmj9iQf6UFyFwOcz3v7bhzi60oytskuj3m3CoQ5fLzetPHcArBN_VYP9t0JyB6TkuDMn-lIZf2Xm76Gao1&t=635591840200000000 necko:classified 1 strongly-framed 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeBAAAAgAAAAAAAAAAAAAAAAAAAAEANgFmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAUyMIIFLjCCBBagAwIBAgISBD/PaiKDSqBrvyhYWeOOHnCYMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yMTAzMDEwNDQ1MzVaFw0yMTA1MzAwNDQ1MzVaMBcxFTATBgNVBAMTDGluZmliZWFtLm9vbzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPi/k1Q+xmCWbwdWNDuz1+WeGANWQjrxxs5o+fAyLUKWXuX/ZaNgyyNvpfGOf0m5gnqmMdFhNT4jb7JI+TYZjNFFzpvqzg9pnD+k8uOmdVRvg0lJRf6dstNi0HLR05E32uPrSl2J47OBmDCQz7WEVcjnBuF2Ucs0dvekX0eweTI53UeltxuvcllNS7L3nPh7873tgitIQfiL146/Fi7gaWa4dPhJiqv0ocJhJmL59XMtT7wItmEKfnKm7NFLiqcKF9+WtT3ppET8KfxBMFjRPpbCruuNZIEdLknga/3sR/aZwuTzA7nR1m/8LPbHhkc5JdDz7fKq00tikMLphvr0l3kCAwEAAaOCAlcwggJTMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUF1Hgvpp3FCVCfgN7dEqOpa1rcTEwHwYDVR0jBBgwFoAUFC6zF7dYVsuuUAlA5h+vnYsUwsYwVQYIKwYBBQUHAQEESTBHMCEGCCsGAQUFBzABhhVodHRwOi8vcjMuby5sZW5jci5vcmcwIgYIKwYBBQUHMAKGFmh0dHA6Ly9yMy5pLmxlbmNyLm9yZy8wJwYDVR0RBCAwHoIOKi5pbmZpYmVhbS5vb2+CDGluZmliZWFtLm9vbzBMBgNVHSAERTBDMAgGBmeBDAECATA3BgsrBgEEAYLfEwEBATAoMCYGCCsGAQUFBwIBFhpodHRwOi8vY3BzLmxldHNlbmNyeXB0Lm9yZzCCAQQGCisGAQQB1nkCBAIEgfUEgfIA8AB2AESUZS6w7s6vxEAH2Kj+KMDa5oK+2MsxtT/TM5a1toGoAAABd+xSC0sAAAQDAEcwRQIgW44OUG8D/+BtYKyKSkuLZl2k7v0+HTmbtMFWz5KPlkMCIQC+c21SxjRx8riSRd9HAgNs3aUMyF68pIA4R1axyJ4e0QB2AH0+8viP/4hVaCTCwMqeUol5K8UOeAl/LmqXaJl+IvDXAAABd+xSC2oAAAQDAEcwRQIhALRrXcE472Gjf0yxFcqwmR0Ua+I1KA8Bbpr/ej/QbfLuAiBu6lIYEJcfUPC47YZOHIRgUyhHD+sqnYaeS+L6eXkf3zANBgkqhkiG9w0BAQsFAAOCAQEADMyVYafLvDJ+5ZDadwejoSU/L24wXyNGUtfBC+JXyKaWkPI6k8Zi49/+FvVzxtTdoZ53M2gc79SMP7jTaMOlhQrJr8O60R23mNTDO+V4mQ4+ddvw57P8lR3UFoQMcxZp4pSpJ5b85HgOeQocjTJD1MdsyHxbcH7LSrzB2r0W95HTkTePAlDQhYH/MDfRMEkok7TsVNmxEs2F4Trv0hkD/XeUSrSJx+YV3qFNtMNN7Ly7LnB26pImzBFUZcWX+NPP7Gkp//v9xF8xz6uP5fsQ1bLahcUHoDHqAqp97kDYafPSxyt6hTo8ZaXIVbn6egfqNMID1kIryzov/r0ikLqWQ8AwAAMAAQAAAQEBAAAAAAAEbm9uZQAAABBSU0EtUEtDUzEtU0hBNTEyAAAAAAABAAAACGh0dHAvMS4xAQAA request-method GET response-head HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 11 Jan 2022 04:08:16 GMT
+Content-Type: text/css
+Content-Length: 18192
+Cache-Control: public
+Expires: Wed, 11 Jan 2023 03:49:09 GMT
+Last-Modified: Tue, 10 Feb 2015 11:23:40 GMT
+X-AspNet-Version: 4.0.30319
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type
+ original-response-headers Server: nginx
+Date: Tue, 11 Jan 2022 04:08:16 GMT
+Content-Type: text/css
+Content-Length: 18192
+Connection: keep-alive
+Cache-Control: public
+Expires: Wed, 11 Jan 2023 03:49:09 GMT
+Last-Modified: Tue, 10 Feb 2015 11:23:40 GMT
+X-AspNet-Version: 4.0.30319
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type
+ ctid 5 uncompressed-len 0 net-response-time-onstart 2104 net-response-time-onstop 2104   G

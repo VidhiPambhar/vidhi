@@ -1,0 +1,23 @@
+[2022-01-07 10:00:59.134] [main] [info] update#setState idle
+[2022-01-07 10:00:59.212] [main] [info] ExtensionHostStarterWorker created
+[2022-01-07 10:01:00.350] [main] [info] Starting extension host with pid 4614 (fork() took 16 ms).
+[2022-01-07 10:01:29.135] [main] [info] update#setState checking for updates
+[2022-01-07 10:01:29.222] [main] [info] update#setState idle
+[2022-01-07 11:01:29.237] [main] [info] update#setState checking for updates
+[2022-01-07 11:01:30.482] [main] [info] update#setState idle
+[2022-01-07 12:01:29.243] [main] [info] update#setState checking for updates
+[2022-01-07 12:01:30.962] [main] [info] update#setState idle
+[2022-01-07 13:01:29.346] [main] [info] update#setState checking for updates
+[2022-01-07 13:01:29.673] [main] [info] update#setState idle
+[2022-01-07 14:01:29.447] [main] [info] update#setState checking for updates
+[2022-01-07 14:01:29.813] [main] [info] update#setState idle
+[2022-01-07 15:01:29.547] [main] [info] update#setState checking for updates
+[2022-01-07 15:01:30.390] [main] [info] update#setState idle
+[2022-01-07 16:01:29.563] [main] [info] update#setState checking for updates
+[2022-01-07 16:01:30.700] [main] [info] update#setState idle
+[2022-01-07 17:01:29.665] [main] [info] update#setState checking for updates
+[2022-01-07 17:01:30.733] [main] [info] update#setState idle
+[2022-01-07 18:01:29.763] [main] [info] update#setState checking for updates
+[2022-01-07 18:01:30.882] [main] [info] update#setState idle
+[2022-01-07 18:06:21.785] [main] [info] Waiting for extension host with pid 4614 to exit.
+[2022-01-07 18:06:21.824] [main] [info] Extension host with pid 4614 exited with code: 0, signal: null.

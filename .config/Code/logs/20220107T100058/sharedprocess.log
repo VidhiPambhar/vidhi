@@ -1,0 +1,22 @@
+[2022-01-07 10:01:02.247] [sharedprocess] [info] Starting worker process with pid 4677 (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-07 10:01:02.537] [sharedprocess] [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/parcel/watcherApp)
+[2022-01-07 10:01:02.541] [sharedprocess] [info] Worker process with pid 4677 terminated normally (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-07 10:01:02.551] [sharedprocess] [info] Starting worker process with pid 4691 (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-07 10:01:03.323] [sharedprocess] [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/parcel/watcherApp)
+[2022-01-07 10:01:03.324] [sharedprocess] [info] Worker process with pid 4691 terminated normally (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-07 10:01:03.351] [sharedprocess] [info] Starting worker process with pid 4786 (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-07 10:01:05.835] [sharedprocess] [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/parcel/watcherApp)
+[2022-01-07 10:01:05.836] [sharedprocess] [info] Worker process with pid 4786 terminated normally (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-07 10:01:05.845] [sharedprocess] [info] Starting worker process with pid 4902 (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-07 10:01:06.066] [sharedprocess] [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/parcel/watcherApp)
+[2022-01-07 10:01:06.068] [sharedprocess] [info] Worker process with pid 4902 terminated normally (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-07 10:01:06.070] [sharedprocess] [info] Starting worker process with pid 4917 (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-07 10:01:06.231] [sharedprocess] [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/parcel/watcherApp)
+[2022-01-07 10:01:06.250] [sharedprocess] [info] Worker process with pid 4917 terminated normally (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-07 10:01:06.251] [sharedprocess] [info] Starting worker process with pid 4931 (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-07 10:01:06.290] [sharedprocess] [info] Installing extension: zhuangtongfa.material-theme
+[2022-01-07 10:01:08.234] [sharedprocess] [info] Downloaded extension: zhuangtongfa.material-theme /home/vidhi/.config/Code/CachedExtensionVSIXs/zhuangtongfa.material-theme-3.13.10
+[2022-01-07 10:01:08.358] [sharedprocess] [info] Extracted extension to /home/vidhi/.vscode/extensions/.cdfaaf02-1f1b-47a9-8fc8-3ecc9abf5a31: zhuangtongfa.material-theme
+[2022-01-07 10:01:08.365] [sharedprocess] [info] Renamed to /home/vidhi/.vscode/extensions/zhuangtongfa.material-theme-3.13.10
+[2022-01-07 10:01:08.367] [sharedprocess] [info] Extracting completed. zhuangtongfa.material-theme
+[2022-01-07 10:01:08.377] [sharedprocess] [info] Extension installed successfully: zhuangtongfa.material-theme

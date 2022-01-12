@@ -1,0 +1,375 @@
+Ôªø.btnMap:hover
+{
+    background-color:#6e0000;    
+}
+
+
+
+#TopBar1
+{
+    position:absolute; 
+    height:70px; 
+    width:100%
+    
+}
+
+#TopBar1 #pageheader 
+{
+    position:relative;
+    width: 100%;
+}
+
+
+#pageheader #hdrlogo
+{     
+    background-repeat:no-repeat;
+    background-color:#ffffff; 
+    width: 450px;            
+    background-repeat:no-repeat;  
+    height:64px;        
+    
+         
+   /* background-image:url('WebResource.axd?d=3n1GjR-_1jlhmQ8Inw3NLIqaDyf2aS0vg8MPlwZW8nPjFN8AAyiavVF84ijpP4IBf1Ydn5jgDBp_VX2xPlMr8U0h3E5mMxiCJZOXC2C5YXPaWao45SOHwyZYLEfot-_e7d2S124KLUgLFyBUJ3mPGZdaEorR_xpqqhRAg8YiFlw1&t=635591840200000000');*/
+}
+
+.btnTst
+{
+    display:none;
+}
+
+
+.HeaderTable
+{    
+    background-repeat:repeat-x; 
+     background-color: #ffffff;               
+            background: #f9fafb; /* Old browsers */
+            background: -moz-linear-gradient(top,  #f9fafb 0%, #f5f6f7 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9fafb),color-stop(100%,#f5f6f7)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top,  #f9fafb 0%,#f5f6f7 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top,  #f9fafb 0%,#f5f6f7 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top,  #f9fafb 0%,#f5f6f7 100%); /* IE10+ */
+            background: linear-gradient(to bottom,  #f9fafb 0%,#f5f6f7 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fafb', endColorstr='#f5f6f7',GradientType=0 ); /* IE6-9 */                              
+}
+
+
+#TopBarButtonContainer
+{
+    position:absolute;
+  /*  top: 10px;*/
+    width: 250px;
+    height: 488px;
+   /* right:15px;*/
+    /*background-color:#4e4d4d;*/
+}
+
+#TopBar1 #hdrend
+{
+    /*background-image:url('mainpage/header_right.png');*/
+    background-repeat:repeat-x;
+    /*width: 14px;*/
+   /* height:66px;    */
+}
+
+
+.btnNew:hover,.btnEdit:hover,.btnSave:hover,.btnDelete:hover,.btnCancel:hover,.btnBack:hover,.btnRefresh:hover,.btnSettings:hover,.btnUpload:hover,.btnDownload:hover,.btnSynch:hover
+{
+ background-color:#6e0000 !important;
+}
+
+.btnAccountSetting:hover ,.btnHome:hover,.btnFavourite:hover ,.btnHelp:hover ,.btnContact:hover ,.btnAbout:hover ,.btnLogout:hover ,.btnDashboard:hover
+{   
+    background-color:#6e0000;    
+}
+
+.btnContact,.btnAbout,.btnLogout,.btnAccountSetting,.btnHome,.btnFavourite,.btnHelp,.btnDashboard
+{
+     background-color:#484747;
+}
+
+
+.PreviousBtn:Hover
+{
+    background-image: url('WebResource.axd?d=ffsP5ekOEG4afugmuyS84edh8S2Oc5NZQBcx_w_Pzc0C7tEJgcr0Aiha7pB6OH-eNP9I5GgbmguiikbUBidw6zOS4tufLJm40dMu4mvrz-ZYw1dbRhuh8WEPmHfN8a5dH2Ifr5WLU8kq6ZPQeFxxMVHEYoBX8aegm9SIqRW_gXA1&t=635591840200000000') !important;
+    background-color: #6e0000 !important;
+}
+
+
+.NextBtn:Hover
+{
+    background-image: url('WebResource.axd?d=DJdLZkfgoGcwGEUByXia3t7d6ITeeMiFdh8WDSbs4CmK4VunwRJRGr4Cc7IqFk7kx0d62oVO84XpR3evWpwzk9i9G-cHYobiPlBHyQCtY_jbr83XiJ044XVuwCqI6sL7B58ayZFw1B0V_qyZQRuNUTMDoDbC4krJDZOhnJbSe4E1&t=635591840200000000') !important;
+    background-color: #6e0000 !important;
+}
+
+
+#LeftBar
+{
+    background-color: #f6f6f6;       
+    font-size:12px;    
+    position:absolute; 
+    width: 230px;
+    height:100px;
+    font-family: Segoe UI;
+    border-width: 0 1px 0 0;
+    border-style:solid;
+    border-color:#9f9e9e;
+}
+
+
+#leftbarmenu > a:nth-child(1) {
+    border-top: 1px solid #dcdbdb;
+}
+
+#LeftBar:hover
+{
+    /* background-color: #e7e7e7;   */
+}
+
+#LeftBar #LeftBarHeader
+{
+    width: 100%; 
+    text-align: center; 
+    padding-top: 3px
+}
+
+.ModuleHeaderFont
+{
+      color: #a7a7a7;
+      font-size:16px;
+}
+
+#LeftBarHeader .moduleHeader
+{
+  
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#LeftBar #LeftBarMenuContainer
+{
+    margin-top:10px;
+    overflow:auto;
+}
+
+#LeftBarMenu
+{
+    padding-top: 5px; 
+}
+
+
+/*************ESS LEFT BAR*************************/
+
+
+#ContentBar 
+{
+    position:absolute;
+    background-color: #ffffff;           
+}
+  #ESSLeftBar
+        {
+            background-color: #f6f6f6;
+            background-repeat: repeat-x;
+            font-size: 12px;
+            border: 1px solid #9f9e9e;
+            position: absolute;
+            width: 240px;
+            height: 100px;
+            font-family: Segoe UI;
+        }               
+        #ESSLeftBarHeader
+        {
+            padding: 5px;
+            margin-top: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        #ESSLeftBar #ESSLeftBarMenuContainer
+        {
+            margin-top: 10px;
+            overflow: auto;
+        }
+        
+        #ESSLeftBarMenu
+        {
+            padding-top: 5px;
+        }
+         .ESSContentBox
+        {
+            background-color: #f0f0f0;
+            margin-top: 0px;
+            border: 1px solid #d6d3d3;
+            border-color: #d6d3d3;
+        }
+
+.testbar
+{
+    background-color: #ffffff;           
+}
+
+#DivGradiant
+{
+   background-color: #00aeef;
+            background-image:     -ms-linear-gradient(top, #00a0ef, #fff0ff); /* IE10 */
+            background-image:    -moz-linear-gradient(top, #d7dfd4, #ffffff); /* FF3.6 */
+           filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#00aeef',EndColorStr='#ffffff'); 
+}
+
+
+ .lvl1CollapsableItem:hover, .lvl1ExpandedItem:hover,
+ .lvl2CollapsableItem:hover, .lvl2ExpandedItem:hover,
+.lvl3CollapsableItem:hover, .lvl3ExpandedItem:hover,
+ .lvl4CollapsableItem:hover, .lvl4ExpandedItem:hover
+{    
+    background-color:#e7e7e7;    
+}
+
+
+
+  
+.lvl1Item,  .lvl1CollapsableItem, .lvl1ExpandedItem, .lvl1ItemSelected,
+.lvl2Item, .lvl2CollapsableItem, .lvl2ExpandedItem, .lvl2ItemSelected,
+.lvl3Item,  .lvl3CollapsableItem, .lvl3ExpandedItem,.lvl3ItemSelected,
+.lvl4Item, .lvl4CollapsableItem, .lvl4ExpandedItem,.lvl4ItemSelected
+{
+    outline-style:none;
+    text-align:left;
+    display:block;
+    color: #3a3939;
+    width:95%;
+    border-color: #dcdbdb;
+    border-style: double;
+    border-width: 0px 0px 1px 0px;
+    padding: 3px;
+    cursor: pointer;
+    text-decoration: none;
+     font-family: Segoe UI;   
+     font-size:12px;
+}
+
+.lvl1Item:hover, .lvl2Item:hover, .lvl3Item:hover, .lvl4Item:hover, 
+.lvl1CollapsableItem:hover, .lvl1:hover,
+.lvl2CollapsableItem:hover, .lvl2:hover,
+.lvl3CollapsableItem:hover, .lvl3:hover,
+.lvl4CollapsableItem:hover, .lvl4:hover
+{
+     background-color:#e7e7e7;
+      color:#3a3939;
+      font-size:12px;
+}   
+    
+.lvl1Item, .lvl2Item, .lvl3Item, .lvl4Item
+{
+    background-color:#f6f6f6;
+    color:#3a3939;
+    font-size:12px;
+}   
+
+  .lvl1ItemSelected,.lvl2ItemSelected,.lvl3ItemSelected,.lvl4ItemSelected
+{
+    color: #500000;
+    background-color:#f6f6f6;
+    background-position: right;
+    background-repeat: no-repeat;    
+    font-size:12px;
+}
+
+
+
+
+.lvl1CollapsableItem,.lvl2CollapsableItem, .lvl3CollapsableItem, .lvl4CollapsableItem
+{   
+    text-decoration: none;
+    background-image: url('WebResource.axd?d=l326UycyeE5-OatEpdHV_BZqA2wDh8fnp5hlMM70zDWVpSfsYZhIHEWRrisKJUL7ZVpx_ZsuOUxbTFxwaJsj5K-Dh9bmNS-b_0T7PDvsARKA1GS5csB80DS6n_gnahHUoFLliYhGII36z8qcSCArTA2&t=635591840200000000');  
+    background-position: right;
+    background-repeat: no-repeat;        
+}
+
+.lvl1ExpandedItem, .lvl2ExpandedItem,.lvl3ExpandedItem, .lvl4ExpandedItem
+{
+    text-decoration: none;
+    background-image: url('WebResource.axd?d=fNuulYgsWApmumeg8op-eCiWqaM_bZA2ylW1arqYp1Khn-0PqnOTLM57choxICWdDpDJtf_xdP6-e0eL_VpVi2vL1rkKnW5xd87RfXF0vNi3Gsp17QzJdRmJdB8S7FG_ceEgBJ2oWUJGreEp0tupkg2&t=635591840200000000');  
+    background-position: right;
+    background-repeat: no-repeat;    
+}
+
+
+
+
+#shadingCorner
+{
+    /*background-image:url('mainpage/shading_corner.png');*/
+   /* background-color:#272626;*/
+    background-repeat:no-repeat;
+    width:8px;
+    height:8px;
+}
+                
+.ContentHover
+        {            
+            font-size: 16px;            
+            color: #70757c;           
+            background-image:url('WebResource.axd?d=UxWICVhaIq4rs85UNszhbpv4B4VqiKqTUG-tqDF9J7yNoHJV50Bkbtlmno2iTP5qY5kEQzcIgcOBjoScgLO0ONSl8_TdCK-7cuauBwCUcNOUFfu2dVG8H-gmGkuipI1alquB92qiTyc_nB_TiXQ5KtDsXVoAUHcDMpUgbzruu0rCqwczZ4o-_vNNzQVq6pPw0&t=635591840200000000');              
+            background-repeat:no-repeat;
+        }
+
+.ModuleButton:hover,btnLogout:Hover
+{           
+    background-color:#6e0000;
+    /*border: 2px solid #1d4c90;*/
+}
+
+
+ .HeaderHover
+        {
+            background-color: Aqua;
+            font-size: 20px;
+            opacity: 0.25;
+            color: Black;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            border-top: 1px solid black;
+            -moz-box-shadow: 0px 1px 10px #666, inset 10px 10px 0px #a4a4a4;
+            -khtml-box-shadow: 0px 1px 10px #666;             
+        }
+          #test_hdrcontent1 table
+        {
+            margin-bottom: 2px;
+        }        
+        #tbldata
+        {
+            text-align: left;
+            color: #3a3939;
+            font-size:13px;
+            padding-right:5px;
+        }
+        #divTitle
+        {                                          
+            text-align: center;          
+            color: #500000;            
+        }             
+                ¿’ú[Í      aﬁXaﬁXC÷Ycæ1¥  0    O^partitionKey=%28http%2Cinfibeam.ooo%29,:http://ess.infibeam.ooo/COSEC/WebResource.axd?d=5sHqDDUAdnvmQJaBdAHv192cL8fRTscFKV8m5BYVkzWSxymM0cuHQsHVsHsAROha6qr_bYQIduhDszUWYV0E3MyQoKaMGyvVrwlj7Ar79NgW3CIQLFcWGb8RbvlnbYDR8fT-jZ5jZ-KjQsyV89xL_BJwN1aHcymAxNCJ8GOFYEokzrT8qhorrRLGaBOOt5kn0&t=635591840200000000 necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 12 Jan 2022 04:25:02 GMT
+Content-Type: text/css
+Content-Length: 9627
+Cache-Control: public
+Expires: Wed, 11 Jan 2023 03:49:09 GMT
+Last-Modified: Tue, 10 Feb 2015 11:23:40 GMT
+X-AspNet-Version: 4.0.30319
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type
+ original-response-headers Server: nginx
+Date: Wed, 12 Jan 2022 04:25:02 GMT
+Content-Type: text/css
+Content-Length: 9627
+Connection: keep-alive
+Cache-Control: public
+Expires: Wed, 11 Jan 2023 03:49:09 GMT
+Last-Modified: Tue, 10 Feb 2015 11:23:40 GMT
+X-AspNet-Version: 4.0.30319
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type
+ ctid 5 uncompressed-len 0 net-response-time-onstart 1638 net-response-time-onstop 1745   %õ

@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "One Dark Pro Flat",
+    "editor.fontFamily": "'Firacode'",
+    "editor.fontSize": 20,
+    "terminal.integrated.drawBoldTextInBrightColors": false,
+    "terminal.integrated.fontFamily": "monospace",
+    "files.autoSave": "afterDelay"
+}

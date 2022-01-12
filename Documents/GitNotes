@@ -1,0 +1,97 @@
+git status:-tells us current status of the repository
+git init:-create new empty neww repo
+git add: stage changes for commit
+git commit -m "msg":- commite staged changes
+git log:-shows history of changes.
+
+
+
+
+
+
+
+
+First we have to crete one Project
+then add on git using:-
+
+-->git init
+
+then create a one text file on that folder
+
+add that file opn git using: -
+
+-->git add --all OR
+-->git add . OR
+-->git add file_name
+
+
+after adding all file in gitlab you can check the status of that file using:-
+
+-->git status
+
+
+for commit that file:-
+
+-->git commit -m "This is my first commit"
+
+Till now we have create only one text file...but i want to create other text file and I want to add both file on git:- 
+
+create other txt file using:-
+
+->nano Filename.txt
+->git add .
+
+
+If you want to unstage file:-
+-->git reset HEAD Index.text
+
+
+-->git log:-It is basically a history of our privous commitment status.
+
+-->git patch:-this will give us the additional information inclusiong what we have modified till now all the information
+
+
+
+DElete a file or folder from git:-
+
+firstly,
+
+rm -rf -- file_name OR folder_name
+then this file is only delete from folder but it is exisiting on gitlab...
+
+
+we have to delete using 
+rm -rf -- file_name OR folder_name.... after we have to follow below steps,
+
+-->git add .
+-->git commit -m "Removed temp foldeer"
+-->git status
+
+It is removed from git 
+
+
+
+*Creating a branches:-
+-->git checkout -b features/new-table.html
+for checking in m in which branch:-
+-->git branch
+-->git checkout master
+
+
+*Deleteing a file from branch:-
+-->git branch -d features/new-table 
+-->git branch -D features/new-table 
+
+
+*Merging a branch:-
+
+-->git merge feature/new-table
+
+
+Push:-
+
+-->git push origin master(which branch youw ant to push)
+*Merging branch:-
+
+
+

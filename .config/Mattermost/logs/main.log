@@ -1,0 +1,122 @@
+[2022-01-03 15:26:55.720] [warn]  Failed to load configuration file from the filesystem. Using defaults.
+[2022-01-03 15:26:55.727] [warn]  Current working directory is /home/vidhi, changing into /opt/Mattermost
+[2022-01-03 15:26:55.985] [info]  config.autostart has been configured: true
+[2022-01-03 15:26:55.986] [info]  config.autostart has been configured: true
+[2022-01-03 15:26:55.987] [info]  config.autostart has been configured: true
+[2022-01-03 15:26:56.154] [info]  preloading with /opt/Mattermost/resources/app.asar/modalPreload.js
+[2022-01-04 09:44:36.538] [warn]  Current working directory is /home/vidhi, changing into /opt/Mattermost
+[2022-01-04 09:44:36.735] [info]  config.autostart has been configured: true
+[2022-01-04 09:44:36.738] [info]  config.autostart has been configured: true
+[2022-01-04 09:44:36.979] [info]  config.autostart has been configured: true
+[2022-01-04 09:44:37.131] [info]  preloading with /opt/Mattermost/resources/app.asar/modalPreload.js
+[2022-01-05 09:50:00.883] [warn]  Current working directory is /home/vidhi, changing into /opt/Mattermost
+[2022-01-05 09:50:01.020] [info]  config.autostart has been configured: true
+[2022-01-05 09:50:01.022] [info]  config.autostart has been configured: true
+[2022-01-05 09:50:01.324] [info]  config.autostart has been configured: true
+[2022-01-05 09:50:01.471] [info]  preloading with /opt/Mattermost/resources/app.asar/modalPreload.js
+[2022-01-06 09:48:12.161] [warn]  Current working directory is /home/vidhi, changing into /opt/Mattermost
+[2022-01-06 09:48:12.371] [info]  config.autostart has been configured: true
+[2022-01-06 09:48:12.376] [info]  config.autostart has been configured: true
+[2022-01-06 09:48:12.673] [info]  config.autostart has been configured: true
+[2022-01-06 09:48:12.828] [info]  preloading with /opt/Mattermost/resources/app.asar/modalPreload.js
+[2022-01-07 09:28:06.393] [warn]  Current working directory is /home/vidhi, changing into /opt/Mattermost
+[2022-01-07 09:28:06.545] [info]  config.autostart has been configured: true
+[2022-01-07 09:28:06.555] [info]  config.autostart has been configured: true
+[2022-01-07 09:28:06.871] [info]  config.autostart has been configured: true
+[2022-01-07 09:28:07.029] [info]  preloading with /opt/Mattermost/resources/app.asar/modalPreload.js
+[2022-01-07 13:32:22.889] [warn]  Current working directory is /home/vidhi, changing into /opt/Mattermost
+[2022-01-07 13:32:25.827] [info]  preloading with /opt/Mattermost/resources/app.asar/modalPreload.js
+[2022-01-10 09:06:02.403] [warn]  Current working directory is /home/vidhi, changing into /opt/Mattermost
+[2022-01-10 09:06:02.569] [info]  config.autostart has been configured: true
+[2022-01-10 09:06:02.583] [info]  config.autostart has been configured: true
+[2022-01-10 09:06:02.864] [info]  config.autostart has been configured: true
+[2022-01-10 09:06:03.024] [info]  preloading with /opt/Mattermost/resources/app.asar/modalPreload.js
+[2022-01-10 16:58:35.030] [warn]  Current working directory is /home/vidhi, changing into /opt/Mattermost
+[2022-01-11 09:25:37.902] [warn]  Current working directory is /home/vidhi, changing into /opt/Mattermost
+[2022-01-11 09:25:38.107] [info]  config.autostart has been configured: true
+[2022-01-11 09:25:38.108] [info]  config.autostart has been configured: true
+[2022-01-11 09:25:38.389] [info]  config.autostart has been configured: true
+[2022-01-11 09:25:38.540] [info]  preloading with /opt/Mattermost/resources/app.asar/modalPreload.js
+[2022-01-11 09:47:13.136] [warn]  Current working directory is /home/vidhi, changing into /opt/Mattermost
+[2022-01-11 09:47:15.568] [info]  preloading with /opt/Mattermost/resources/app.asar/modalPreload.js
+[2022-01-11 10:58:36.820] [warn]  Current working directory is /home/vidhi, changing into /opt/Mattermost
+[2022-01-11 15:14:40.652] [warn]  Current working directory is /home/vidhi, changing into /opt/Mattermost
+[2022-01-11 15:14:48.007] [info]  preloading with /opt/Mattermost/resources/app.asar/modalPreload.js
+[2022-01-11 15:14:51.892] [info]  preloading with /opt/Mattermost/resources/app.asar/modalPreload.js
+[2022-01-11 15:14:54.280] [info]  preloading with /opt/Mattermost/resources/app.asar/modalPreload.js
+[2022-01-11 15:15:48.964] [info]  BrowserView created for server DRC Tech___TAB_MESSAGING
+[2022-01-11 15:15:48.969] [warn]  couldn't show DRC Tech___TAB_MESSAGING, not ready
+[2022-01-11 15:15:48.970] [info]  [DRC Tech___TAB_ME...] Loading https://mattermost.drcsystems.com/tech
+[2022-01-11 15:15:48.973] [warn]  couldn't show DRC Tech___TAB_MESSAGING, not ready
+[2022-01-11 15:15:48.987] [warn]  couldn't show DRC Tech___TAB_MESSAGING, not ready
+[2022-01-11 15:15:49.002] [info]  config.autostart has been configured: true
+[2022-01-11 15:15:49.047] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/config/client?format=old
+[2022-01-11 15:15:49.049] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/plugins/webapp
+[2022-01-11 15:15:49.050] [warn]  couldn't show DRC Tech___TAB_MESSAGING, not ready
+[2022-01-11 15:15:49.055] [warn]  couldn't show DRC Tech___TAB_MESSAGING, not ready
+[2022-01-11 15:15:49.067] [warn]  couldn't show DRC Tech___TAB_MESSAGING, not ready
+[2022-01-11 15:15:49.072] [info]  config.autostart has been configured: true
+[2022-01-11 15:15:49.074] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/config/client?format=old
+[2022-01-11 15:15:49.075] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/plugins/webapp
+[2022-01-11 15:15:49.075] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/plugins/webapp
+[2022-01-11 15:15:49.076] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/config/client?format=old
+[2022-01-11 15:15:49.092] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/config/client?format=old
+[2022-01-11 15:15:49.093] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/plugins/webapp
+[2022-01-11 15:15:49.096] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/plugins/webapp
+[2022-01-11 15:15:49.097] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/config/client?format=old
+[2022-01-11 15:15:49.695] [info]  [DRC Tech___TAB_ME...] finished loading https://mattermost.drcsystems.com/tech
+[2022-01-11 15:15:49.737] [info]  config.autostart has been configured: true
+[2022-01-11 15:15:49.738] [info]  config.autostart has been configured: true
+[2022-01-11 15:15:49.771] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/config/client?format=old
+[2022-01-11 15:15:49.771] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/plugins/webapp
+[2022-01-11 15:15:49.772] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/config/client?format=old
+[2022-01-11 15:15:49.774] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/config/client?format=old
+[2022-01-11 15:15:49.775] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/plugins/webapp
+[2022-01-11 15:15:49.776] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/config/client?format=old
+[2022-01-11 15:15:49.781] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/plugins/webapp
+[2022-01-11 15:15:49.782] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/plugins/webapp
+[2022-01-11 15:15:52.512] [info]  hide back button
+[2022-01-11 15:15:53.700] [info]  DRC Tech___TAB_MESSAGING timeout expired will show the browserview
+[2022-01-11 15:16:25.446] [info]  show back button
+[2022-01-11 15:16:44.064] [info]  show back button
+[2022-01-11 15:17:19.574] [info]  show back button
+[2022-01-11 15:17:35.611] [info]  show back button
+[2022-01-11 15:17:38.768] [info]  show back button
+[2022-01-11 15:17:38.796] [info]  hide back button
+[2022-01-11 15:17:52.591] [info]  show back button
+[2022-01-11 15:17:55.740] [info]  hide back button
+[2022-01-11 15:18:12.951] [info]  hide back button
+[2022-01-11 15:18:15.726] [info]  show back button
+[2022-01-11 15:18:15.820] [info]  hide back button
+[2022-01-11 15:20:23.075] [info]  [DRC Tech___TAB_ME...] Loading https://mattermost.drcsystems.com/tech
+[2022-01-11 15:20:23.115] [info]  hide back button
+[2022-01-11 15:20:23.397] [info]  [DRC Tech___TAB_ME...] finished loading https://mattermost.drcsystems.com/tech
+[2022-01-12 09:54:06.770] [warn]  Current working directory is /home/vidhi, changing into /opt/Mattermost
+[2022-01-12 09:54:06.950] [info]  config.autostart has been configured: true
+[2022-01-12 09:54:06.959] [info]  config.autostart has been configured: true
+[2022-01-12 09:54:07.174] [info]  BrowserView created for server DRC Tech___TAB_MESSAGING
+[2022-01-12 09:54:07.184] [warn]  couldn't show DRC Tech___TAB_MESSAGING, not ready
+[2022-01-12 09:54:07.185] [info]  [DRC Tech___TAB_ME...] Loading https://mattermost.drcsystems.com/tech
+[2022-01-12 09:54:07.191] [warn]  couldn't show DRC Tech___TAB_MESSAGING, not ready
+[2022-01-12 09:54:07.308] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/config/client?format=old
+[2022-01-12 09:54:07.310] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/plugins/webapp
+[2022-01-12 09:54:07.316] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/config/client?format=old
+[2022-01-12 09:54:07.317] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/plugins/webapp
+[2022-01-12 09:54:07.328] [warn]  couldn't show DRC Tech___TAB_MESSAGING, not ready
+[2022-01-12 09:54:07.347] [warn]  couldn't show DRC Tech___TAB_MESSAGING, not ready
+[2022-01-12 09:54:07.353] [info]  config.autostart has been configured: true
+[2022-01-12 09:54:07.369] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/config/client?format=old
+[2022-01-12 09:54:07.371] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/config/client?format=old
+[2022-01-12 09:54:07.372] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/plugins/webapp
+[2022-01-12 09:54:07.376] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/plugins/webapp
+[2022-01-12 09:54:08.037] [info]  [DRC Tech___TAB_ME...] finished loading https://mattermost.drcsystems.com/tech
+[2022-01-12 09:54:08.157] [info]  config.autostart has been configured: true
+[2022-01-12 09:54:08.158] [info]  config.autostart has been configured: true
+[2022-01-12 09:54:08.176] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/config/client?format=old
+[2022-01-12 09:54:08.191] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/config/client?format=old
+[2022-01-12 09:54:08.192] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/plugins/webapp
+[2022-01-12 09:54:08.192] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/config/client?format=old
+[2022-01-12 09:54:08.227] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/plugins/webapp
+[2022-01-12 09:54:08.231] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/config/client?format=old
+[2022-01-12 09:54:08.232] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/plugins/webapp
+[2022-01-12 09:54:08.233] [error] Error parsing server data from https://mattermost.drcsystems.com/tech/api/v4/plugins/webapp

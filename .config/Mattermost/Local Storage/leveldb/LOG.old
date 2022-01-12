@@ -1,0 +1,6 @@
+2022/01/11-09:25:38.175 71d Reusing MANIFEST /home/vidhi/.config/Mattermost/Local Storage/leveldb/MANIFEST-000001
+2022/01/11-09:25:38.175 71d Recovering log #3
+2022/01/11-09:25:38.175 71d Reusing old log /home/vidhi/.config/Mattermost/Local Storage/leveldb/000003.log 
+2022/01/11-16:13:49.514 5fa5 Level-0 table #5: started
+2022/01/11-16:13:49.517 5fa5 Level-0 table #5: 12357 bytes OK
+2022/01/11-16:13:49.520 5fa5 Delete type=0 #3

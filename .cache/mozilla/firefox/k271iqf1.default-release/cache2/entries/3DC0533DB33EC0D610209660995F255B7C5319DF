@@ -1,0 +1,765 @@
+ï»¿
+
+/************ Grid Row without Border ************************/
+
+/*************************************************************/
+
+.collapsePanelHeader,.PanelHeaderTitle
+{		
+	color:#000000;
+	font-size:14px;		   	
+	 font-family: Segoe UI;	 
+	 cursor:Black;	  	
+	 
+}
+
+
+.CollapsePanelBorder
+{
+     border: 2px solid #dcd1d1;
+     padding:3px 0 3px 0;
+}
+
+.collapsiblePanelHeader:hover
+{
+       color:#3a3939;	 
+       background-color:#6e0000;	 
+	 font-family: Segoe UI;	 
+	 	font-size:12px;		
+	 cursor:Black;
+	  background-image: url('WebResource.axd?d=EDHnfqDQhSRY9evDLvg37o-HbXyFkr63xjLP6HoaIxDJmyb8y3iFaZw9OvgXFTLTmdCrZECErqq0y4Zlo8hZ8TP5Wo6w1lTs7uQ4fw9n7f4kRju_rUlFvPcuQxH7vTkcIQIJMAJlfwjq5jR4MoXy83FxHjL95joMjRML77wnvcqfo9aD5fd350Djr51G2rUF0&t=635591840200000000');  
+	  background-repeat:repeat-x;	  	       
+}
+.collapsiblePanelHeaderTitleSelected
+{
+     color: #500000;
+	font-size:12px;		        	
+	font-family: Segoe UI;	 
+	 cursor:Black;	
+	 padding:0px 0px 0px 10px;  	       
+}
+
+.collapsiblePanelHeaderTitle
+{
+    color:#3a3939;
+	font-size:12px;		        	
+	font-family: Segoe UI;	 
+	 cursor:Black;	 
+}
+
+.collapsiblePanelSelected
+{
+       color:#500000 !important;
+       background-color:#500000 !important;
+	  background-image: url('WebResource.axd?d=EDHnfqDQhSRY9evDLvg37o-HbXyFkr63xjLP6HoaIxDJmyb8y3iFaZw9OvgXFTLTmdCrZECErqq0y4Zlo8hZ8TP5Wo6w1lTs7uQ4fw9n7f4kRju_rUlFvPcuQxH7vTkcIQIJMAJlfwjq5jR4MoXy83FxHjL95joMjRML77wnvcqfo9aD5fd350Djr51G2rUF0&t=635591840200000000');  
+	  background-repeat:repeat-x;	 
+}
+
+.collapsiblePanelSelected
+{
+       color:#500000 !important;
+       background-color:#500000 !important;
+}
+
+.collapsiblePanelSelected > .collapsiblePanelHeader
+{
+   background-color:#500000 !important;
+}
+
+.collapsiblePanelSelected  span
+{
+    color:#500000 !important;
+}
+
+
+
+#ContentBar 
+{
+    position:absolute;
+    background-color: #fafafa;
+}
+.cbonormal
+{
+    border:1px solid #b1b1b1; 
+    color:#3a3939;     
+}
+.cborequired
+{
+    background-color:#fafafa;    
+    border:1px solid #c4a3a3;
+    color:#3a3939;   
+}
+.ControlBackColor ,.checkbox
+{    
+    color:#3a3939;
+}
+
+.checkbox
+{   
+    height:18px;
+    width:18px;
+}
+
+.checkboxList
+{  
+    color:#3a3939;
+}
+
+.tableBorder
+{
+    border: thin solid #cccccc;
+}
+.trRightBorder
+{
+    border-right-style: solid;
+    border-right-width: thin; 
+    border-right-color: #cccccc;
+}
+
+.HrTag
+        {
+            border-top: 1px solid #cccccc;
+            border-left: 0px none #cccccc;
+            border-bottom: 0px none #cccccc;
+            border-right: 0px none #cccccc;
+            color: #cccccc;
+            margin:1px;
+        }
+          .HrTagFieldset
+        {
+            border-bottom: 1px thin #cce1f2;
+        }
+        
+        .TabMenuContainer
+        {
+            background-color: #d6d3d3;
+            display:block;
+            padding: 0px 0px 0px 0px;
+        }
+        
+        .TabMenuItem
+        {
+            margin-bottom: 1px;
+            background-color: #f9fafb;
+            color: #3a3939;
+            text-decoration: none;
+            font-family: Segoe UI;
+            font-size: 12px;
+            font-weight: normal;
+            display: block;
+            border-bottom: 1px solid white;
+            padding: 5px 0px 5px 5px;
+        }
+        .TabMenuItem:hover
+        {
+            margin-bottom: 1px;
+            background-color: #e7ebef;
+            color: #3a3939;
+            text-decoration: none;
+            font-family: Segoe UI;
+            font-size: 12px;
+            font-weight: normal;
+            display: block;
+            border-bottom: 1px solid white;
+            padding: 5px 0px 5px 5px;
+        }
+        
+        .TabSubMenuItem
+        {   
+            margin-bottom: 2px;
+            /*background-color: #f9fafb;*/
+            color: #3a3939;
+            text-decoration: none;
+            font-family:Segoe UI;
+            font-size: 12px;
+            font-weight: normal;
+            display : block;
+            /*border-bottom: 1px solid white;*/
+            padding: 5px 10px 5px 4px;   
+            width : 138px;
+            vertical-align : top;
+            height:13px;
+            background-repeat: no-repeat;
+        }
+        
+        .VerticalMenu
+        {
+            background-color : #d6d3d3;
+        }
+        
+        a.selected.static
+        {
+            background-color: #ffffff;
+           color: #500000;
+            font-weight: normal;
+            font-size: 12px;
+        }
+        
+        .ContentBox
+        {
+            background-color: white;
+            margin-top: 0px;
+            border: 1px solid #d6d3d3;
+            border-color: #d6d3d3;
+        }
+        .tdBorder
+        {
+            border-right: 1px solid #d6d3d3;
+            background-color: #F9FAFB;
+        }        
+        
+        .LeftSideBorder
+        {
+            border-left: 1px solid #d6d3d3;
+            border-left-color: #d6d3d3;
+        }
+
+.TextDisable
+{
+    
+     border: 1px solid #cccccc;
+     background-color:#e7e6e6;  
+     color:#969696;  
+    
+}
+.TextNormal
+{
+     border: 1px solid #cccccc;
+     background-color:#fafafa; 
+     color:#3a3939;  
+     resize:none;
+}
+
+.TextDisplay
+{
+     border: 1px solid #cccccc;
+     background-color:#e7e6e6;  
+     color:#6e6e6e;    
+     resize:none;   
+}
+
+.FontFamily,.TextNormal,.LabelText,.RadioButtonList
+{
+    font-family:Segoe UI;
+    font-size:12px;
+    color:#3a3939;
+   
+}
+
+.ButtonBarHeight
+{
+    height:32px;
+}
+
+.calanderBackGround,.PickListBackGround
+{
+    background-color:#3a3939;       
+}
+.calanderBackGround:hover,.PickListBackGround:hover
+{
+    background-color:#6e0000;     
+}
+
+
+.PickListBackGround
+{
+    height:20px;
+    width:18px;
+    
+}
+.ControlBackGroundHover
+{
+     background-color:#6e0000; 
+}
+
+.ControlBackGround:hover
+{
+     background-color:#6e0000; 
+}
+
+.PickListBackGround:hover
+{
+      vertical-align:middle;
+      background-color:#6e0000;
+      height:20px;
+      width:18px;
+}
+
+
+
+
+.PickList:hover
+{
+   /* outline-style: none;
+    display: block;
+    background-repeat: no-repeat;
+    height:20px;
+    width:18px;    
+    background-image: url('WebResource.axd?d=wNUhwcfl4UWJrgJQnoCph3-sywnbc4lq2LiHbMinxEoQe58I2_k8jPFpveUthK3z_Nx6HAaSYvU7R5kWMC785wOqKtqj6kAS4ZX7z7momOGdTVcsuMrLoCIhvbupr7_6mHLFev7vZqSzKFAKfEe8c6-nXAiDCobI5Sh0CicppRA1&t=635591840200000000');*/
+    background-color:#6e0000;  
+}
+
+.ColorPicker3:hover
+{
+   /* outline-style: none;
+    display: block;
+    background-repeat: no-repeat;
+    height:20px;
+    width:18px;    
+    background-image: url('WebResource.axd?d=VLYjB_S3wRE2RHfYHsHivCLfw6mUwl5GQUn1AwPoCQ82Jtz7TDZNM0Qe1HDFstlRYVyILo97QRs7oFX8DIq03yRIjv_R1bxNAcpvUIFbJB0Lnsk0Adp7bCuSHAykRU6LOlVBq2nRAG6AdWsbyn2cm1tYezpCl6ppY3cOLecXXT01&t=635591840200000000');*/
+    background-color:#6e0000;  
+}
+.CalanderUI
+{
+    outline-style: none;
+    display: block;
+    background-repeat: no-repeat;
+    height:20px;
+    width:13px;    
+    background-image: url('WebResource.axd?d=g3czbSOTrc6vB8m295SNcxIkNu0_rqoescgRqrmNBLvYTDIEL-2wJfEr__xtlwQoW2LmmRY3dSW7-nIJQkECyn9N2iXOEd5duQWpTE2qYGm0zSHKaOAo7VweEumkT0G4o9GUE0rwHgsfgTzVjAa9PPifCdbDAeXLO3JnRtel5NM1&t=635591840200000000');
+    background-color:#6e0000;  
+}
+
+ .imgPhotoBrowse
+    {
+        background-color:#3a3939;
+        border:0px;
+        cursor:pointer;
+    }
+    .imgPhotoBrowse:hover
+    {
+        background-color:#6e0000;
+        border:0px;
+        cursor:pointer;
+    }
+
+
+
+
+
+.DateRangeBackGround:hover
+{
+     background-color:#6e0000;
+     /* outline-style: none;
+      display: block;
+      vertical-align:middle;
+     
+      height:20px;
+      width:13px;
+      background-image: url('WebResource.axd?d=1svPBIKqe_YUgZhkViPOWXBP7NSMAaV9aMHybup99IiUG56zYxFAUSreu_jnHc8LXtV5SZUGkOChebK9hFJjsIrlU2mfVUZkcGDMDOErGOfevg-j2M1NUrD_86ycTo3yhL8mBdHWMoBjwa3owTauguaeHrAV83uupBBoxUZhpuA1&t=635591840200000000');*/
+}
+
+.ShowPopUpBackGround:hover
+{       
+     background-color:#6e0000;
+      /*outline-style: none;
+      display: block;
+     
+      vertical-align:middle;
+      height:20px;
+      width:18px;
+      background-image: url('WebResource.axd?d=yDJdWcDk-Ju7tA9juR_x0mMoKlA9-oHulVf6IbfPeUBIcm3Us8l7hWttIh8N1_QArHhz47jNHDSn4rNyksqBaUVluIz2_GCjcZDP1M9RR4C2hMooflGdztJJ-MhNRUh7-FtLLjH3SHaDGjxoWaj4emP9KAfJyAB80dups17J4ww1&t=635591840200000000');*/
+}
+
+.ShowAddPunch:hover
+{       
+     background-color:#6e0000;
+}
+
+
+
+.TextRequired
+{     
+    background-color:#fafafa;    
+    border:1px solid #c4a3a3;
+    color:#3a3939;   
+}
+
+
+
+
+
+
+/* Image Upload Control */
+div.fileinputs
+{
+    position: relative;
+    width: 150px;
+}
+    
+div.fakefile
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    
+}
+    
+input.file
+{
+    position: relative;
+    -moz-opacity: 0;
+    filter: alpha(opacity:0);
+    opacity: 0;
+    z-index: 2;
+}
+    
+.imguploadbutton
+{
+    border: 1px solid #C0C0C0;
+    padding: 2px;
+    width: 16px;
+    height: 16px;
+}
+
+.btnDownloadPhoto:hover
+{
+   /* width: 12px;
+    height: 20px;
+    vertical-align:middle;
+    background-image: url('WebResource.axd?d=22YXXP-SYybIWMtCcfea17s6cjOEqj_ZgPBlbv4ZMsESx8lmF9l9ZZZXbTws-WKt89P1oV4Q5Mj7rpyXAfMEkVrh-fe1ac_cNwYOMqG3Wgn8q6Ocu6_x6YTxgDmlco0sJKbxqVkRbNA77ooIZoKaQF8FlLVbiihTzI0GhP0EAMg1&t=635591840200000000');     
+   
+    background-repeat: no-repeat;    
+    outline-style:none;
+    display:block;*/
+     background-color:#6e0000;
+}
+
+
+.btnBrowsePhoto:hover
+{
+     background-color:#6e0000;
+  /* width: 16px;
+    height: 20px;
+    vertical-align:middle;
+    background-image: url('WebResource.axd?d=NKHh0J5uV93phg8rJe0Gc9j0leTldQmFkJAfZ7zcAXcD88dk38cMOGNAMmd1WkKqvPLvc4ur_4nLY390FW96c3R9IqBOmSGDlSnvwpqcIjZM31B7PG4tygZgIJ1KKBu-TJr4Ubr-dOdbg-1C19EGFAlNEADBU0qvoLfj9WHa4DA1&t=635591840200000000');     
+   
+    background-repeat: no-repeat;    
+    outline-style:none;
+    display:block;*/
+}
+
+
+
+.btnDeletePhoto:hover
+{
+     background-color:#6e0000;
+  /*  width: 12px;
+    height: 20px;
+    vertical-align:middle;
+    background-image: url('WebResource.axd?d=SxNpfvob6TOGxuDra97-h1wQKhUSeltPDqpgLJtafxoxMS1lxPF_I1-cpCQnldpvHq1q5DjJo-cGmuAz7ZFlEjqsFqc7Qif0J1ysBtaQk8qpVg643vGDvZ3zaD3HxeXq8Y7D3jojjcyC7AAFi4-2_5ZSi0bgjpJ_z5nkYfAgA8k1&t=635591840200000000');     
+   
+    background-repeat: no-repeat;    
+    outline-style:none;
+    display:block;*/
+}
+
+
+
+.ImgEdit:hover
+{
+   /* outline-style: none;
+    display: block;
+    background-repeat: no-repeat;
+    height:20px;
+    width:16px;    
+    background-image: url('WebResource.axd?d=pCn3GFRk4ut5hNF9DZMVmKZZGXRPzeSoNJARqTECgQxbdc4s8ORgqalUiP4JyRmmSfLgZbUSf3Sopl35KG1tQSuXJeQtn4PpfyPSQi53wRJUkNHVbBcAxCsHtW9y57weqd4QGsDoySNDYHdp3lgvPw2&t=635591840200000000');   */
+    background-color:#6e0000;
+}
+
+
+.ImgBalance
+{
+    outline-style: none;
+    display: block;
+    background-repeat: no-repeat;
+    height:20px;
+    width:12px;    
+    background-image: url('WebResource.axd?d=0b-VaGmNQGnmuq7bRdTNyLAoX9nTM1VXGBBPjEW_XS65b6Zap8bTSuLDoS8F75B9n2hCTIo15UuMcYW_ZnoW69K0RzfcZEsIJq25L8mKrqlIHWTApgxUc5kZs4hC8f-8SW6VNwMieFfxcQb8KUw9dauGf7weUYnwELMQmMA8chE1&t=635591840200000000');   
+    background-color:#3a3939;
+}
+.ImgBalance:hover
+{
+    outline-style: none;
+    display: block;
+    background-repeat: no-repeat;
+    height:20px;
+    width:12px;    
+    background-image: url('WebResource.axd?d=0b-VaGmNQGnmuq7bRdTNyLAoX9nTM1VXGBBPjEW_XS65b6Zap8bTSuLDoS8F75B9n2hCTIo15UuMcYW_ZnoW69K0RzfcZEsIJq25L8mKrqlIHWTApgxUc5kZs4hC8f-8SW6VNwMieFfxcQb8KUw9dauGf7weUYnwELMQmMA8chE1&t=635591840200000000');   
+    background-color:#6e0000;
+}
+
+.ImgDateRange:hover
+{
+    /*outline-style: none;
+    display: block;
+    background-repeat: no-repeat;
+    height:20px;
+    width:13px;    
+    background-image: url('WebResource.axd?d=1svPBIKqe_YUgZhkViPOWXBP7NSMAaV9aMHybup99IiUG56zYxFAUSreu_jnHc8LXtV5SZUGkOChebK9hFJjsIrlU2mfVUZkcGDMDOErGOfevg-j2M1NUrD_86ycTo3yhL8mBdHWMoBjwa3owTauguaeHrAV83uupBBoxUZhpuA1&t=635591840200000000'); */  
+    background-color:#6e0000;
+}		
+.ImgExpand
+{
+    outline-style: none;
+    display: block;
+    background-repeat: no-repeat;
+    height:20px;
+    width:18px;    
+    background-image: url('WebResource.axd?d=4j8aKG9GPw73UOP39bIjBzYqzuZd1D-v7E8KK1r3Zn-62UyTPzdn7t2VaQHqVlijMJ1qw1GQ7FwCox--_NOqPUwtaeD22wlT91vPn64f8Xh-eS_EC1zShuU7Ntkzucn6YDzVCgD6mO6CRlhG5DSmbEsiF2lyJ6j5-1xCg6Bej941&t=635591840200000000');   
+}	
+.Imgcollaps
+{
+    outline-style: none;
+    display: block;
+    background-repeat: no-repeat;
+    height:20px;
+    width:18px;    
+    background-image: url('WebResource.axd?d=a_Fl0i4KQx-SkYpDuN5a3iLY6RbnclJVW5Wyp0-i_V01BJB9h-pEf-1nWWfbgdvyMT6XotXGigf_jjmqhcKwxmGkd0UdM1VNFpWBqfgS07kAa__hRkrtHoHr1-BPamBv9QXS0B00OW_cXw-GSi01e8HXEX9j4pYvFhl5ujwS5rU1&t=635591840200000000');   
+}
+.ImgSetting
+{
+    outline-style: none;
+    display: block;
+    background-repeat: no-repeat;
+    height:20px;
+    width:18px;    
+    background-image: url('WebResource.axd?d=0u4vURHjuGSW5nX0yzX6bhSv1SJwsp4bAXsOmNHRJbBSQFOs12OdDCLz3mvyZD7Mnd5z7yLZu7cNtX5ZJnS8o-8fIUQeGcLMUu8sff9HhnHUkj40XA2g5j01Tui4P5-D4V3C1aEWNYCHnkEn11GXcvC-YqRZgNMX2KjGoPXi2DFu9qYpW04UOx5fMLQ-UzrE0&t=635591840200000000');   
+}
+
+
+
+.PunchPrevious:hover,.PunchNext:hover
+{
+    background-color:#6e0000;
+}
+
+
+
+.ButtonPrevious:hover
+{
+   /* width: 5px;
+    height: 20px;
+    vertical-align:middle;
+    background-image: url('WebResource.axd?d=DInOyJ6MtBrNSexf2g1y2wipfo-7bfCuY9bSiH5BnXgaE5yct9rwCojJYCYopNIyeTuuzzPHXm6EHKhyPM3nD-v5FehimuZ7XmMgk07Y-mKVsFa6d6qGMxfmcPKGBLtlMUNajF7vHYF3M3S5v4lSS0UyyYHa8DP2yxr2JDjPnHg1&t=635591840200000000');         
+    background-repeat: no-repeat;    
+    outline-style:none;
+    display:block;*/
+    background-color:#6e0000;
+}
+
+
+.ButtonNext:hover
+{
+  /*  width: 5px;
+    height: 20px;
+    vertical-align:middle;
+    background-image: url('WebResource.axd?d=T70h5rFvi2B8mXOUgkRuN_ArhJvNoNvGW796XkHtCKWtQFj7xtwOWjiNWIkiUpNl2VYLmF9_ky2rgUa4ASQYqwbOt8v4rO_dcpCJC0li0kmv_pJo7IlKRMvpOhXcWElaEuR1LsBa9kKB56jnsKH8o91Hprj4mDQivx5dSJHb3fQ1&t=635591840200000000');         
+    background-repeat: no-repeat;
+    outline-style:none;
+    display:block;*/
+    background-color:#6e0000;
+}
+
+
+
+.btnFPConfig:hover
+{
+    background-color:#6e0000;
+  /*  height : 20px;
+    width : 29px;
+    background-image: url('WebResource.axd?d=lju6cwAa8dGrsUqlzGn5KbOjPdOhnuM4JbcPxm1yWOw2UrNI1Pytpa_Mdaj9xdTvTGrMl6QoY2izBrIkdSpI6v0LUDfs4euJ5KkYbLl5oj-bRPZqXFCZDwYFUXl3ThOOkKKdavOf_zJHtqsv-P5bHYMGaLZQJIASNfKJl5FK_Oo1&t=635591840200000000'); 
+    outline-style: none;
+    display: block;
+    background-repeat: no-repeat;*/
+}
+
+.btnListView
+{    
+    background-color:#3a3939;
+    height : 53px;
+    width : 62px;
+    outline-style: none;
+    display: block;
+    background-repeat: no-repeat;
+}
+.btnListView:hover
+{ 
+    background-color:#6e0000;
+    height : 53px;
+    width : 62px;
+    outline-style: none;
+    display: block;
+    background-repeat: no-repeat;
+}
+.btnDownloadImport:hover,.btnUploadDoc:hover, .btnPreviewDoc:hover
+{    
+    background-color:#6e0000;   
+}
+/* ----------------------------- */
+
+
+/**** Device Selection **************/
+  .trupContentSelection
+        {            
+            border-width : 1px;
+            border-color : #cccccc; 
+            border-style : solid;
+        }
+         .tdLeftContentSelection
+        {     
+            padding-left:2px;       
+            border-top-width : 0px;
+            border-bottom-width : 1px;
+            border-left-width : 1px;
+            border-right-width : 1px;
+            border-color : #cccccc; 
+            border-style : solid;
+        }
+         .tdRightContentSelection
+        {            
+            padding-left:2px; 
+            border-top-width : 0px;
+            border-bottom-width : 1px;
+            border-left-width : 0px;
+            border-right-width : 1px;
+            border-color : #cccccc; 
+            border-style : solid;
+        }
+        .lblDeviceName
+        {
+            font-size : 30px;
+            color : #a6a5a5;
+        }
+          .gridRightLine
+        {            
+            border-top-width : 0px;
+            border-bottom-width : 0px;
+            border-left-width : 0px;
+            border-right-width : 1px;
+            border-color : #cccccc; 
+            border-style : solid;
+        }
+/*************************************/
+
+.btnRedirect
+{  
+    height : 27px;
+    width : 28px;
+    vertical-align : middle;
+    outline-style: none;
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url('WebResource.axd?d=UpRr7bTTFvFh3pHLZGRX4Bwf0ONDsxNZ7qSYJL76THauWEo52Xs4FZ_EHb5njJJJCEg1-IotNQqBr4TYIrJlv6tpS_D2IKGshakk6Dy5doIhPJPLzXcy_F-jLJdD_kkX_HmNrqKOhyQlf9W-45wuDIX7YBdXaWhnoRTsetAf8g01&t=635591840200000000');
+}
+.btnRedirectDisabled
+{   
+    background-image:url('WebResource.axd?d=tjCsDaQ9TMuELKBnrC8uux_KiPDShLJmXiA5a92k0ZbqGGHfJsWJof1gFQPDovZWlmWAQnOwtp4wnRANyJ8dGPur4Nm5bC-7WKpSwa1mrSkvc3r7UumDv_o5867nr7GvNmURbdwawaY3HBl9rlTBhbWBK4SVnL_Tb4hTIk1aRDrKrzgENEvTBdDnBp53tbFi0&t=635591840200000000');     
+}
+.btnRedirect:hover
+{
+    background-color:#6e0000;
+    background-image:url('WebResource.axd?d=2DTq79wnmh4URRh5oElkR85-kKyALsbzp9vRLafRRazHzpJpio7wmvRTPqb-myuUw7OLqwywFrYW-SzD65w6NPHEmDbjXQEK2KBYn5uVVGsO5Jc0r62soaKtMtwRCBKiwdTD4KK2or9EX6vOv3qs2UuQa9BJ_yk7roR8v1mp6Ew1&t=635591840200000000'); 
+}
+
+
+/* START Ajax File Upload control css changes */
+/* File uploaded forecolor */
+.uploadedState
+{
+    color:#3A3939 !important;    
+}
+
+/* Upload button */
+.ajax__fileupload_uploadbutton
+{
+    background-color: #000000 !important;    
+}
+
+/* Remove button */
+.removeButton
+{
+    background-color: #000000 !important;
+}
+
+/* File selected for upload forecolor */
+.pendingState
+{
+    color: #3A3939 !important;
+}
+
+/* Progressbar color */
+.ajax__fileupload_progressBar {    
+   /* background-color: #CCFFCC;  light green */
+   background-color: #71fc00 !important;
+}
+
+/* Uploading file name */
+.ajax__fileupload_fileItemInfo .uploadingState {
+   /* color: #FF9900; orange */   
+   color: #3A3939 !important; 
+}
+
+/* Cancel Button */
+.ajax_fileupload_cancelbutton {   
+   /* background-color: #990033; carat color */
+   background-color: #000000 !important; 
+}
+
+/* cancel file name */
+.ajax__fileupload_fileItemInfo .cancelledState {
+   /* color: #900;  carat color */   
+   color: #3A3939 !important; 
+}
+
+/* Error file name */
+.ajax__fileupload_fileItemInfo .errorState {
+   /* color: #ffffff; */
+   color: #3A3939 !important; 
+}
+.ajax__fileupload_fileItemInfo .pendingState
+{
+    background-color: #F6F6F6 !important;
+}
+.ajax__fileupload_fileItemInfo .uploadedState
+{
+    background-color: #F6F6F6 !important;
+}
+/* END Ajax File Upload control css changes */
+
+.MsgBoardHeading
+{
+    font-family: Segoe UI;
+    font-size: 12px;
+    color: #f96666;    
+}
+.MsgBoardSubject
+{
+    font-family: Segoe UI;
+    font-size: 12px;
+    white-space:nowrap;
+    color:White;
+}Mä=¹      aÝ°aÝ°CÕlpc¾1µ      O^partitionKey=%28https%2Cinfibeam.ooo%29,:https://ess.infibeam.ooo/COSEC/WebResource.axd?d=eIlCfEkQjAlkebP4DEO7aTclPv4hlIZSEZW0HADpxRDApHTMQCG2VWTI4dtlZ1iRu8ROVljZDkmkykJKIwxnyiUu1iaMhKjLVhMoAZeJ_MgbYYxB05BZOYpY7C40p8pOnlGplyk-gvRooDp0gAkpryraclsh6gzfyrRheBkXM6Y1&t=635591840200000000 necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 11 Jan 2022 04:08:16 GMT
+Content-Type: text/css
+Content-Length: 19451
+Cache-Control: public
+Expires: Wed, 11 Jan 2023 03:49:09 GMT
+Last-Modified: Tue, 10 Feb 2015 11:23:40 GMT
+X-AspNet-Version: 4.0.30319
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type
+ original-response-headers Server: nginx
+Date: Tue, 11 Jan 2022 04:08:16 GMT
+Content-Type: text/css
+Content-Length: 19451
+Connection: keep-alive
+Cache-Control: public
+Expires: Wed, 11 Jan 2023 03:49:09 GMT
+Last-Modified: Tue, 10 Feb 2015 11:23:40 GMT
+X-AspNet-Version: 4.0.30319
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type
+ ctid 5 uncompressed-len 0 net-response-time-onstart 856 net-response-time-onstop 857   Kû

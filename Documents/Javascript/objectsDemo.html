@@ -1,0 +1,34 @@
+
+<html>
+<head>
+    <title>Objects Properties Demo() Learning)</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        const person={
+            name:"Khushi",
+            age:21,
+            favFood:"Meggie"
+        };
+        // document.getElementById("demo").innerHTML=person.name+ " is" +person.age + " years old";
+
+
+        //access using for...in loop
+        let txt="";
+        for(let x in person){
+            txt+=person[x] + " ";
+        }
+        //document.getElementById("demo").innerHTML=txt;
+
+        //Adding new property
+        person.Nationality="hindu";
+       // document.getElementById("demo").innerHTML=person.Nationality;
+
+        //Delete property
+         delete person.favFood;
+        //document.getElementById("demo").innerHTML=person.favFood;
+
+    </script>
+</body>
+</html>

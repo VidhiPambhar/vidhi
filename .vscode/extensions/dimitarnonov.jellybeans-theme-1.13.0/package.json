@@ -1,0 +1,44 @@
+{
+	"name": "jellybeans-theme",
+	"displayName": "Jellybeans Theme",
+	"description": "This is vs code theme based on jellybeans.vim theme.",
+	"version": "1.13.0",
+	"publisher": "DimitarNonov",
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/DNonov/jellybeans-code"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"Theme",
+		"Dark",
+		"Visual Studio Code",
+		"Jellybeans",
+		"vim"
+	],
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"icon": "media/icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Jellybeans Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/jellybeans-theme-color-theme.json"
+			}
+		]
+	},
+	"scripts": {
+		"package": "vsce package"
+	},
+	"__metadata": {
+		"id": "05e8da77-310a-464b-85f0-2c258cd47f40",
+		"publisherId": "098dbcdd-e4a4-445c-bb90-1da5e79a70eb",
+		"publisherDisplayName": "Dimitar Nonov",
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1641207888440
+	}
+}

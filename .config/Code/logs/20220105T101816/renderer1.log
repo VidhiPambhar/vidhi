@@ -1,0 +1,51 @@
+[2022-01-05 10:18:18.573] [renderer1] [error] [Extension Host] (node:6145) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2022-01-05 10:18:19.578] [renderer1] [warning] [File Watcher (parcel)] correcting a path to watch that seems to be a symbolic link (original: /home/vidhi/Documents/Javascript, real: /home/vidhi/Documents/javascript)
+[2022-01-05 10:18:19.580] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/vidhi/Documents/Javascript)
+[2022-01-05 10:18:19.583] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-05 10:18:19.842] [renderer1] [warning] [File Watcher (parcel)] correcting a path to watch that seems to be a symbolic link (original: /home/vidhi/Documents/Javascript, real: /home/vidhi/Documents/javascript)
+[2022-01-05 10:18:19.844] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/vidhi/Documents/Javascript)
+[2022-01-05 10:18:19.845] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-05 10:18:19.992] [renderer1] [warning] [File Watcher (parcel)] correcting a path to watch that seems to be a symbolic link (original: /home/vidhi/Documents/Javascript, real: /home/vidhi/Documents/javascript)
+[2022-01-05 10:18:19.993] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/vidhi/Documents/Javascript)
+[2022-01-05 10:18:19.994] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-05 10:18:20.261] [renderer1] [warning] [File Watcher (parcel)] correcting a path to watch that seems to be a symbolic link (original: /home/vidhi/Documents/Javascript, real: /home/vidhi/Documents/javascript)
+[2022-01-05 10:18:20.262] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/vidhi/Documents/Javascript)
+[2022-01-05 10:18:20.263] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-05 10:18:20.648] [renderer1] [warning] [File Watcher (parcel)] correcting a path to watch that seems to be a symbolic link (original: /home/vidhi/Documents/Javascript, real: /home/vidhi/Documents/javascript)
+[2022-01-05 10:18:20.649] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/vidhi/Documents/Javascript)
+[2022-01-05 10:18:20.650] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2022-01-05 10:18:21.121] [renderer1] [warning] [File Watcher (parcel)] correcting a path to watch that seems to be a symbolic link (original: /home/vidhi/Documents/Javascript, real: /home/vidhi/Documents/javascript)
+[2022-01-05 10:18:21.125] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/vidhi/Documents/Javascript)
+[2022-01-05 10:18:21.126] [renderer1] [error] [File Watcher (parcel)] gave up attempting to restart watcher after error: Bad file descriptor
+[2022-01-05 12:23:24.421] [renderer1] [error] Cannot read property 'find' of undefined: TypeError: Cannot read property 'find' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:179371)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:177724)
+	at z.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101537)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:121945
+	at We._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:111974)
+	at We.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:121921)
+	at t._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:10826)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:8922
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:66:1712)
+	at r.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:74:18942)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:34341
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:66:1712)
+	at r.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:74:18942)
+	at n._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:74:23523)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:74:21057
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:66:1712)
+	at w.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:74:15770)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:74:14900
+	at Socket.T (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:114:13813)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-01-05 15:21:10.767] [renderer1] [error] [text file model] handleSaveError(3) - exit - resulted in a save error: Error: Unable to write file '/home/vidhi/Documents/Javascript/icecream_callhell.js' (Error: File Modified Since) file:///home/vidhi/Documents/Javascript/icecream_callhell.js
+[2022-01-05 15:21:11.006] [renderer1] [error] [text file model] handleSaveError(3) - exit - resulted in a save error: Error: Unable to write file '/home/vidhi/Documents/Javascript/icecream_callhell.js' (Error: File Modified Since) file:///home/vidhi/Documents/Javascript/icecream_callhell.js
+[2022-01-05 15:21:11.222] [renderer1] [error] [text file model] handleSaveError(3) - exit - resulted in a save error: Error: Unable to write file '/home/vidhi/Documents/Javascript/icecream_callhell.js' (Error: File Modified Since) file:///home/vidhi/Documents/Javascript/icecream_callhell.js

@@ -1,0 +1,42 @@
+{
+  "version": 3,
+  "teams": [
+    {
+      "url": "https://mattermost.drcsystems.com/tech",
+      "name": "DRC Tech",
+      "order": 0,
+      "tabs": [
+        {
+          "name": "TAB_MESSAGING",
+          "order": 0,
+          "isOpen": true
+        },
+        {
+          "name": "TAB_FOCALBOARD",
+          "order": 1
+        },
+        {
+          "name": "TAB_PLAYBOOKS",
+          "order": 2
+        }
+      ],
+      "lastActiveTab": 0
+    }
+  ],
+  "showTrayIcon": true,
+  "trayIconTheme": "light",
+  "minimizeToTray": true,
+  "notifications": {
+    "flashWindow": 2,
+    "bounceIcon": true,
+    "bounceIconType": "informational"
+  },
+  "showUnreadBadge": true,
+  "useSpellChecker": true,
+  "enableHardwareAcceleration": true,
+  "autostart": true,
+  "spellCheckerLocales": [],
+  "darkMode": false,
+  "downloadLocation": "/home/vidhi/Downloads",
+  "lastActiveTeam": 0
+}

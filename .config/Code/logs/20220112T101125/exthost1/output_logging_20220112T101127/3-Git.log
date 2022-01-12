@@ -1,0 +1,10 @@
+Validating found git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/vidhi
+> git status -z -u
+> git show --textconv :Documents/Javascript/mapfilterDemo.js
+> git ls-files --stage -- /home/vidhi/Documents/Javascript/mapfilterDemo.js
+> git cat-file -s fd25de4c4498c5fd2b8a3fa737be98138c0f2a0d
+> git check-ignore -v -z --stdin
+> git add -A -- .

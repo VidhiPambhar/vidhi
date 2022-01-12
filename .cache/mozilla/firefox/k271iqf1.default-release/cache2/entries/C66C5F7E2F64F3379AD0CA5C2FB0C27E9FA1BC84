@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Stringify (Json function) - m204wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Stringify_(Json_function)","wgTitle":"Stringify (Json function)","wgCurRevisionId":93768,"wgRevisionId":93768,"wgArticleId":10047,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Json methods"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Stringify_(Json_function)","wgRelevantArticleId":10047,"wgRequestId":"YdfddwoRyUUAAMt1uYAAAAAB","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":false,"dialogs":false,"preview":false,"publish":false}});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@0as5tcf",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.28.1"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="m204wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="http://m204wiki.rocketsoftware.com/api.php?action=rsd"/>
+<link rel="copyright" href="/index.php/M204wiki:Copyrights"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Stringify_Json_function rootpage-Stringify_Json_function skin-vector action-view">    <div id="center">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Stringify (Json function)</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From m204wiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p><span class="pageSubtitle">Serialize a JSON object (<a href="/index.php/Json_class" title="Json class">Json class</a>)</span>
+</p>
+<p>[Introduced in <var class="product">Model 204</var> 7.6]</p>
+<p>This function serializes a <var>Json</var> object tree as a unicode JSON string.
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Syntax"><span class="tocnumber">1</span> <span class="toctext">Syntax</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Syntax_terms"><span class="tocnumber">1.1</span> <span class="toctext">Syntax terms</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-3"><a href="#Usage_notes"><span class="tocnumber">2</span> <span class="toctext">Usage notes</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Examples"><span class="tocnumber">3</span> <span class="toctext">Examples</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#See_also"><span class="tocnumber">4</span> <span class="toctext">See also</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Syntax">Syntax</span></h2>
+<p class="syntax"><span class="term">%unicode</span><span class="literal"> =</span> <span class="term">json</span><span class="literal">:Stringify</span><span class="squareb">[</span><span class="literal">(</span> <span class="squareb">[</span><span class="literal" title="Number">Indent=</span> <span class="term" title="Number">number</span><span class="squareb">]</span><span class="literal">)</span><span class="squareb">]</span>
+
+Throws <a href="/index.php/JsonCircularReference_class" title="JsonCircularReference class">JsonCircularReference</a></p>
+<h3><span class="mw-headline" id="Syntax_terms">Syntax terms</span></h3>
+<table>
+<tr><th nowrap="">%unicode</th>
+<td>A unicode string that contains the JSON format serialization of the <var>Json</var> object tree.</td></tr>
+<tr><th>Json</th>
+<td><var>Json</var> object, which may be <var>Null</var> or any underlying <var>Json</var> object type (boolean, number, string, array, or object).</td></tr>
+<tr><th><var>Indent</var></th>
+<td>The number of space characters to add in front of each line for each nesting level (see below for more details). The default value of <var>Indent</var> is 0, which means lines will not be indented.</td></tr>
+</table>
+<h2><span class="mw-headline" id="Usage_notes">Usage notes</span></h2>
+<ul>
+<li>The name <code>Stringify</code> derives from the equivalent JavaScript method: <a rel="nofollow" class="external text" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify">JSON.stringify</a>.</li>
+<li>The functionality of <var>Stringify</var> is practically identical to that of <var><a href="/index.php/ToString_(Json_function)" title="ToString (Json function)">ToString</a></var>. The only difference is that <var>Stringify</var> throws a <var><a href="/index.php/JsonCircularReference_class" title="JsonCircularReference class">JsonCircularReference</a></var> exception if the <var>Json</var> object leads to a <a href="/index.php/Json_class#Circular_references" title="Json class">circular reference</a>. Because the JSON specification does not allow for circular references, <var>Stringify</var> is probably the preferred function to use for generating JSON to send to another platform &#8212; it's better to catch the exception in Model&#160;204 than to send bad JSON data to someone else.</li>
+<li>If no indentation is used (<var>Indent</var> defaults or is set to 0), no whitespace is added between any of the JSON tokens and separator characters (curly and square braces, commas, and colons). This format is very compact but can be tough for humans to read.</li>
+<li>If indentation is used, a <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/Newline">unicode linefeed character</a> (u+000a) is added before each array item or object property and after the last array item or object property. If the unicode data is printed or audited, the unicode linefeed characters will cause a new line to be started on the screen or audit trail. This will make the serialized JSON data much nicer and easier to read.</li>
+<li>The <var>Indent</var> value indicates the number of blank characters per indentation level to place before each new line of data. Every array and object increases the indentation level by one inside its boundaries. So if an array is inside an object which is inside another object, that array's indentation level is 3. With an <var>Indent</var> value of 2, each array item in that array will have 6 space characters in front of it.</li>
+<li>If a non-zero <var>Indent</var> value is used, a single space character is always placed after the colon in an object property name.</li>
+<li>If the serialized JSON data is to be sent to another platform, the unicode JSON data generally needs to be UTF-8 or UTF-16 encoded, which can be done by using the <var><a href="/index.php/UnicodeToUtf8_(Unicode_function)" title="UnicodeToUtf8 (Unicode function)">UnicodeToUtf8</a></var> or <var><a href="/index.php/UnicodeToUtf16_(Unicode_function)" title="UnicodeToUtf16 (Unicode function)">UnicodeToUtf16</a></var> <var>Unicode</var> functions. Even if the data is known to contain only data that is translatable to EBCDIC, it is best to avoid converting it to EBCDIC, if possible.</li>
+<li>A null <var>Json</var> object serializes as the unicode literal <code>null</code>.</li> 
+</ul>
+<h2><span class="mw-headline" id="Examples">Examples</span></h2>
+<p>The following example builds a <var>Json</var> object tree, then serializes it using <var>Stringify</var> and prints the result:
+</p>
+<p class="code">b
+
+%json        is object json
+%title       is string len 64
+%i           is float
+
+%json = object
+%json("Lee") = "To Kill a Mockingbird"
+%json("Faulkner") = array("As I Lay Dying", "Absalom, Absalom", "The Sound and the Fury")
+%json("Hurston") = array("Jonah's Gourd Vine", "Their Eyes Were Watching God")
+%json("Ellison") = "Invisible Man"
+
+printText {~=%json:stringify(indent=2)}
+
+end
+</p>
+<p>This prints:
+</p>
+<p class="output">%json:stringify(indent=2)={
+  "Lee": "To Kill a Mockingbird",
+  "Faulkner": [
+    "As I Lay Dying",
+    "Absalom, Absalom",
+    "The Sound and the Fury"
+  ],
+  "Hurston": [
+    "Jonah's Gourd Vine",
+    "Their Eyes Were Watching God"
+  ],
+  "Ellison": "Invisible Man"
+}
+</p>
+<p>If the <code>indent=2</code> is removed from the above code, it prints (wrapping at column 80):
+</p>
+<p class="output">%json:stringify(indent=0)={"Lee":"To Kill a Mockingbird","Faulkner":["As I Lay -
+Dying","Absalom, Absalom","The Sound and the Fury"],"Hurston":["Jonah's Gourd V-
+ine","Their Eyes Were Watching God"],"Ellison":"Invisible Man"}
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="list"><tr>
+<td valign="top"><ul style="margin-top:0px;">
+<li><a href="/index.php/Json_class" title="Json class">Json class</a>
+</ul></td>
+<td valign="top"><ul style="margin-top:0px;">
+<li><a href="/index.php/List_of_Json_methods" title="List of Json methods">List of Json methods</a>
+</ul></td>
+<td valign="top"><ul style="margin-top:0px;">
+<li><a href="/index.php/Json_methods_syntax" title="Json methods syntax">Json methods syntax</a>
+</ul></td>
+</tr><tr>
+<td valign="top" colspan="0"><ul style="margin-top:0px;">
+<li><a href="/index.php/Notation_conventions_for_methods" title="Notation conventions for methods">Notation conventions for methods</a>
+</ul></td>
+</tr>
+</table>
+
+<!-- 
+NewPP limit report
+Cached time: 20220107062807
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.025 seconds
+Real time usage: 0.027 seconds
+Preprocessor visited node count: 56/1000000
+Preprocessor generated node count: 116/1000000
+Postâ€expand include size: 1091/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    5.793      1 - -total
+ 34.75%    2.013      1 - Template:Json:Stringify_subtitle
+ 30.12%    1.745      1 - Template:Json:Stringify_footer
+ 26.05%    1.509      1 - Template:Json:Stringify_syntax
+-->
+
+<!-- Saved in parser cache with key m204wiki2:pcache:idhash:10047-0!*!0!!en!*!* and timestamp 20220107062807 and revision id 93768
+ -->
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://m204wiki.rocketsoftware.com/index.php?title=Stringify_(Json_function)&amp;oldid=93768">https://m204wiki.rocketsoftware.com/index.php?title=Stringify_(Json_function)&amp;oldid=93768</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/index.php/Category:Json_methods" title="Category:Json methods">Json methods</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Stringify+%28Json+function%29" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/index.php/Stringify_(Json_function)"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/index.php/Stringify_(Json_function)" >Read</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search m204wiki" title="Search m204wiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/index.php/M204wiki_main_page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-.C2.A0' aria-labelledby='p-.C2.A0-label'>
+			<h3 id='p-.C2.A0-label'>Â </h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-What.27s-New"><a href="/index.php/What%27s_new">What's New</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Reference_Pages' aria-labelledby='p-Reference_Pages-label'>
+			<h3 id='p-Reference_Pages-label'>Reference Pages</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-SOUL.2FUser-Language"><a href="/index.php/SOUL">SOUL/User Language</a></li><li id="n-Model-204-files"><a href="/index.php/Category:Model_204_files">Model 204 files</a></li><li id="n-System-management"><a href="/index.php/Category:System_management">System management</a></li><li id="n-Classes.2Fmethods"><a href="/index.php/Lists_of_classes_and_methods">Classes/methods</a></li><li id="n-Commands"><a href="/index.php/Category:Commands">Commands</a></li><li id="n-Parameters"><a href="/index.php/List_of_Model_204_parameters">Parameters</a></li><li id="n-.24Functions"><a href="/index.php/SOUL_$functions">$Functions</a></li><li id="n-Messages"><a href="/index.php/M204wiki_main_page#Messages">Messages</a></li><li id="n-Categories"><a href="http://m204wiki.rocketsoftware.com/index.php?title=Special:Categories&amp;offset=&amp;limit=500" rel="nofollow">Categories</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Product_Information' aria-labelledby='p-Product_Information-label'>
+			<h3 id='p-Product_Information-label'>Product Information</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Model-204"><a href="/index.php/Model_204">Model 204</a></li><li id="n-Add-ons-and-applications"><a href="/index.php/Model_204_add-ons_and_applications">Add-ons and applications</a></li><li id="n-Release-notes"><a href="/index.php/Release_notes">Release notes</a></li><li id="n-Installation"><a href="/index.php/Installation">Installation</a></li><li id="n-PDF-manuals"><a href="/index.php/Model_204_documentation">PDF manuals</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Help-Editing' aria-labelledby='p-Help-Editing-label'>
+			<h3 id='p-Help-Editing-label'>Help/Editing</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Technical-Support"><a href="/index.php/Contacting_Rocket_Software_Technical_Support">Technical Support</a></li><li id="n-Searching-tips"><a href="/index.php/Searching_M204wiki">Searching tips</a></li><li id="n-Method-search"><a href="http://sirius-software.com/search_methods" rel="nofollow">Method search</a></li><li id="n-Editing-guide"><a href="/index.php/Updating_M204wiki">Editing guide</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/index.php/Special:WhatLinksHere/Stringify_(Json_function)" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/index.php/Special:RecentChangesLinked/Stringify_(Json_function)" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/index.php/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/index.php?title=Stringify_(Json_function)&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/index.php?title=Stringify_(Json_function)&amp;oldid=93768" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/index.php?title=Stringify_(Json_function)&amp;action=info" title="More information about this page">Page information</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Toolbox' aria-labelledby='p-Toolbox-label'>
+			<h3 id='p-Toolbox-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-What-links-here"><a href="http://m204wiki.rocketsoftware.com/index.php?title=Special:WhatLinksHere&amp;target=Stringify_(Json_function)" rel="nofollow">What links here</a></li><li id="n-recentchanges"><a href="/index.php/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-Upload-file"><a href="http://m204wiki.rocketsoftware.com/index.php?title=Special:Upload" rel="nofollow">Upload file</a></li><li id="n-Special-pages"><a href="http://m204wiki.rocketsoftware.com/index.php?title=Special:SpecialPages" rel="nofollow">Special pages</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Print' aria-labelledby='p-Print-label'>
+			<h3 id='p-Print-label'>Print</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Print-this-page"><a href="http://m204wiki.rocketsoftware.com/index.php?title=Stringify_(Json_function)&amp;printable=yes" rel="nofollow">Print this page</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 23 August 2016, at 17:02.</li>
+											<li id="footer-info-copyright"><a href="/index.php/M204wiki:Copyrights" title="M204wiki:Copyrights">&copy;&nbsp;2018&nbsp;Rocket&nbsp;Software,&nbsp;Inc.&nbsp;or&nbsp;its&nbsp;affiliates</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/index.php/M204wiki:Privacy_policy" title="M204wiki:Privacy policy">PrivacyÂ policy</a></li>
+											<li id="footer-places-about"><a href="/index.php/M204wiki_main_page" title="M204wiki main page">m204wikiÂ mainÂ page</a></li>
+											<li id="footer-places-disclaimer"><a href="/index.php/M204wiki:Terms_of_use" title="M204wiki:Terms of use">TermsÂ ofÂ use</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":242});});</script>    </div>
+	</body>
+</html>
+‰Î¥–_Û      a×ØJa×ØLCÑ×Òa×ØK   x    O^partitionKey=%28https%2Crocketsoftware.com%29,:https://m204wiki.rocketsoftware.com/index.php/Stringify_(Json_function) necko:classified 1 strongly-framed 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAAAAgAAAAAAAAAAAAAAAAAAAAEANgFmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAbfMIIG2zCCBcOgAwIBAgIQD1vYlcc8i0quVFP+vBJXWzANBgkqhkiG9w0BAQsFADBPMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMSkwJwYDVQQDEyBEaWdpQ2VydCBUTFMgUlNBIFNIQTI1NiAyMDIwIENBMTAeFw0yMTEwMDYwMDAwMDBaFw0yMjExMDQyMzU5NTlaMHYxCzAJBgNVBAYTAlVTMRYwFAYDVQQIEw1NYXNzYWNodXNldHRzMRAwDgYDVQQHEwdXYWx0aGFtMR4wHAYDVQQKExVSb2NrZXQgU29mdHdhcmUsIEluYy4xHTAbBgNVBAMMFCoucm9ja2V0c29mdHdhcmUuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvMAvTYbROLAOAoNZwSBP9onXZ80O3NhuprNC7ckIKCAN8eXYQgioq7nuyRZUfd2GzOFWrL+ucoFsNF/3u+DPNyOd0wleLWPinTgT1XlLVt1Qqy8em8GBOH/DCvo/HZHiSiVXp92YltaDBaBTvtaW1fuNYhFDSwWxaHxjbmMExFKrmTuXcrmva5CMezOZlfB0C5JU0CYNmlBVlljtGEe9UOGA8Vz83YajTnd+MkN2G4Bw3Ktwh9CrnZEu2w9oL2nt1tNC3CEeACZH5UYBZcgRasPjNLTZ2ziEvZQymFKYVqfjV/SwHmnjkn1htEn3sNYFiQIoqH+WUYnQMAUxZizkLQIDAQABo4IDijCCA4YwHwYDVR0jBBgwFoAUt2ui6qiqhIx56rTaD5iyxZV2ufQwHQYDVR0OBBYEFCAfpogb6A4srjdYB7IZoNJT45dbMDMGA1UdEQQsMCqCFCoucm9ja2V0c29mdHdhcmUuY29tghJyb2NrZXRzb2Z0d2FyZS5jb20wDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjCBjwYDVR0fBIGHMIGEMECgPqA8hjpodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGlnaUNlcnRUTFNSU0FTSEEyNTYyMDIwQ0ExLTQuY3JsMECgPqA8hjpodHRwOi8vY3JsNC5kaWdpY2VydC5jb20vRGlnaUNlcnRUTFNSU0FTSEEyNTYyMDIwQ0ExLTQuY3JsMD4GA1UdIAQ3MDUwMwYGZ4EMAQICMCkwJwYIKwYBBQUHAgEWG2h0dHA6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzB/BggrBgEFBQcBAQRzMHEwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBJBggrBgEFBQcwAoY9aHR0cDovL2NhY2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0VExTUlNBU0hBMjU2MjAyMENBMS0xLmNydDAMBgNVHRMBAf8EAjAAMIIBfQYKKwYBBAHWeQIEAgSCAW0EggFpAWcAdQBGpVXrdfqRIDC1oolp9PN9ESxBdL79SbiFq/L8cP5tRwAAAXxXfQyaAAAEAwBGMEQCH2Lg5zQ1g2sdQgZyf3t9uHcsTH4Y4fHoZV3T4lynNQ8CIQDS0ZEbjwoNsa0FRyLJUsx8oIosEqSb0egbaqwqGAnkiwB2AFGjsPX9AXmcVm24N3iPDKR6zBsny/eeiEKaDf7UiwXlAAABfFd9DLwAAAQDAEcwRQIgZfN2R+EJ6gLRZN/T7nMNLJ1nHxg0x+6GxOZFPOP7FMgCIQCZe/6g8In3wm0n/P7L7YgfdUHgfeHXhWGlGCTUyyObrgB2AEHIyrHfIkZKEMahOglCh15OMYsbA+vrS8do8JBilgb2AAABfFd9DF4AAAQDAEcwRQIgFG/s7qdWk62ztlymtf8K6xYr588Nu00VktyuH+gaJBICIQC4aXWaAY2ZvEy6rrBARqCRWPdblyWyWOp3Dkk5+YzCHjANBgkqhkiG9w0BAQsFAAOCAQEAMz83WpscIDtO6nlGbUAKhMn7OiPD7oW6Vg9m6lWsv9JdD/ewh2jwqNXTO/acXuurML6YcHPDtzyXsCUDISXbn22SPWLE2tISNa5j5gJb2dB8tVVrDnbeiXfnC3BVximh3RhvUn9trdng7EoQlw400/RLRVl8GmP2IJhnleArWUcKKRWoLdAbaD4XzJ3f5sGLbUskNYcPxEs80/hYayf5W33mYG0ZuBRS3wzBzMlEljvs3XmcvSHA8AOdpQdFjHb4RMwrv4sXr795tckU33VQmwrYIoeucvSmELNT4yvy/ox5/WBaS6fDT3KcKub0plKczlDgALTgRm/rD9NQe24WBsAvAAMAAAAAAQEAAAAAAAAEUDI1NgAAABBSU0EtUEtDUzEtU0hBMjU2AANmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAbfMIIG2zCCBcOgAwIBAgIQD1vYlcc8i0quVFP+vBJXWzANBgkqhkiG9w0BAQsFADBPMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMSkwJwYDVQQDEyBEaWdpQ2VydCBUTFMgUlNBIFNIQTI1NiAyMDIwIENBMTAeFw0yMTEwMDYwMDAwMDBaFw0yMjExMDQyMzU5NTlaMHYxCzAJBgNVBAYTAlVTMRYwFAYDVQQIEw1NYXNzYWNodXNldHRzMRAwDgYDVQQHEwdXYWx0aGFtMR4wHAYDVQQKExVSb2NrZXQgU29mdHdhcmUsIEluYy4xHTAbBgNVBAMMFCoucm9ja2V0c29mdHdhcmUuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvMAvTYbROLAOAoNZwSBP9onXZ80O3NhuprNC7ckIKCAN8eXYQgioq7nuyRZUfd2GzOFWrL+ucoFsNF/3u+DPNyOd0wleLWPinTgT1XlLVt1Qqy8em8GBOH/DCvo/HZHiSiVXp92YltaDBaBTvtaW1fuNYhFDSwWxaHxjbmMExFKrmTuXcrmva5CMezOZlfB0C5JU0CYNmlBVlljtGEe9UOGA8Vz83YajTnd+MkN2G4Bw3Ktwh9CrnZEu2w9oL2nt1tNC3CEeACZH5UYBZcgRasPjNLTZ2ziEvZQymFKYVqfjV/SwHmnjkn1htEn3sNYFiQIoqH+WUYnQMAUxZizkLQIDAQABo4IDijCCA4YwHwYDVR0jBBgwFoAUt2ui6qiqhIx56rTaD5iyxZV2ufQwHQYDVR0OBBYEFCAfpogb6A4srjdYB7IZoNJT45dbMDMGA1UdEQQsMCqCFCoucm9ja2V0c29mdHdhcmUuY29tghJyb2NrZXRzb2Z0d2FyZS5jb20wDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjCBjwYDVR0fBIGHMIGEMECgPqA8hjpodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGlnaUNlcnRUTFNSU0FTSEEyNTYyMDIwQ0ExLTQuY3JsMECgPqA8hjpodHRwOi8vY3JsNC5kaWdpY2VydC5jb20vRGlnaUNlcnRUTFNSU0FTSEEyNTYyMDIwQ0ExLTQuY3JsMD4GA1UdIAQ3MDUwMwYGZ4EMAQICMCkwJwYIKwYBBQUHAgEWG2h0dHA6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzB/BggrBgEFBQcBAQRzMHEwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBJBggrBgEFBQcwAoY9aHR0cDovL2NhY2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0VExTUlNBU0hBMjU2MjAyMENBMS0xLmNydDAMBgNVHRMBAf8EAjAAMIIBfQYKKwYBBAHWeQIEAgSCAW0EggFpAWcAdQBGpVXrdfqRIDC1oolp9PN9ESxBdL79SbiFq/L8cP5tRwAAAXxXfQyaAAAEAwBGMEQCH2Lg5zQ1g2sdQgZyf3t9uHcsTH4Y4fHoZV3T4lynNQ8CIQDS0ZEbjwoNsa0FRyLJUsx8oIosEqSb0egbaqwqGAnkiwB2AFGjsPX9AXmcVm24N3iPDKR6zBsny/eeiEKaDf7UiwXlAAABfFd9DLwAAAQDAEcwRQIgZfN2R+EJ6gLRZN/T7nMNLJ1nHxg0x+6GxOZFPOP7FMgCIQCZe/6g8In3wm0n/P7L7YgfdUHgfeHXhWGlGCTUyyObrgB2AEHIyrHfIkZKEMahOglCh15OMYsbA+vrS8do8JBilgb2AAABfFd9DF4AAAQDAEcwRQIgFG/s7qdWk62ztlymtf8K6xYr588Nu00VktyuH+gaJBICIQC4aXWaAY2ZvEy6rrBARqCRWPdblyWyWOp3Dkk5+YzCHjANBgkqhkiG9w0BAQsFAAOCAQEAMz83WpscIDtO6nlGbUAKhMn7OiPD7oW6Vg9m6lWsv9JdD/ewh2jwqNXTO/acXuurML6YcHPDtzyXsCUDISXbn22SPWLE2tISNa5j5gJb2dB8tVVrDnbeiXfnC3BVximh3RhvUn9trdng7EoQlw400/RLRVl8GmP2IJhnleArWUcKKRWoLdAbaD4XzJ3f5sGLbUskNYcPxEs80/hYayf5W33mYG0ZuBRS3wzBzMlEljvs3XmcvSHA8AOdpQdFjHb4RMwrv4sXr795tckU33VQmwrYIoeucvSmELNT4yvy/ox5/WBaS6fDT3KcKub0plKczlDgALTgRm/rD9NQe24WBmYKMiaRXE/7uyCJhaYy3wW9w5eaVCJM1YWJaWtuluqDAAAAAAAABMIwggS+MIIDpqADAgECAhAG2NkE1VhDRvaKL6dUIn7EMA0GCSqGSIb3DQEBCwUAMGExCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xIDAeBgNVBAMTF0RpZ2lDZXJ0IEdsb2JhbCBSb290IENBMB4XDTIxMDQxNDAwMDAwMFoXDTMxMDQxMzIzNTk1OVowTzELMAkGA1UEBhMCVVMxFTATBgNVBAoTDERpZ2lDZXJ0IEluYzEpMCcGA1UEAxMgRGlnaUNlcnQgVExTIFJTQSBTSEEyNTYgMjAyMCBDQTEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDBS7NlR3C83U9Y2+yc7cNm5R8xE1StSmZGHywK7GQH5S7c3LkKIO3f48TQnpqpeh2CiOURVtsen1jCUecsNA0u0pLhVsvxeV+zu4fKJQN7mlJBZhBgT1cTSfDoN2eD3+fTS2dMIlGm3w6ZEO1XUXQm4n3HymIuExt/I4glU2/BNFgAi4T/+L6nWEkie5atooibFbygfN/pUajVsO034ja0gktitUma7Mdn1uM+9ePWEl5E8b9xQn1YhAOAsYEB+vnKMru0jieHJ8UrdNSo1pfew2T5ys5Tola8eBeOSQMprvtJT6QVuc7yXBlXbWt5pyuiJyATtdA9QNMhMAeT6pn1AgMBAAGjggGCMIIBfjASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBS3a6LqqKqEjHnqtNoPmLLFlXa59DAfBgNVHSMEGDAWgBQD3lA1VtFMu2bwo+IbG8OXsj3RVTAOBgNVHQ8BAf8EBAMCAYYwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMHYGCCsGAQUFBwEBBGowaDAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZGlnaWNlcnQuY29tMEAGCCsGAQUFBzAChjRodHRwOi8vY2FjZXJ0cy5kaWdpY2VydC5jb20vRGlnaUNlcnRHbG9iYWxSb290Q0EuY3J0MEIGA1UdHwQ7MDkwN6A1oDOGMWh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEdsb2JhbFJvb3RDQS5jcmwwPQYDVR0gBDYwNDALBglghkgBhv1sAgEwBwYFZ4EMAQEwCAYGZ4EMAQIBMAgGBmeBDAECAjAIBgZngQwBAgMwDQYJKoZIhvcNAQELBQADggEBAIAyzl4L3W5aDQqv4daEy8CO+oVw7dpdswz3K3VA/oUK+vMxeLdwSxqJWLqAvfNrHel+zwu6WJxZ1JDT/Wz90Jhtt3GCW89tC1oJ0HvexEPYKqTenkEmX7uPmcvdruGob5+H/nS3Hxsgq7FPxvVnXV2bPOn/afdhbNbZ8/02xqsDiHbSSy51huP82FV9JsIRd98+ArZ886t7eoY2b7j32JNxz4bfczD6e6vtKlnIQoQ7ERcaUvPJDhR9oltyZ7px7VdHZsW4AkplNF6L0Co8IJxRmUznUp73axErDZJ+HeiK6zYWQ4fqKmO/dT/r3sQDuwo89zDv669M/Is2EHM+86RmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAOzMIIDrzCCApegAwIBAgIQCDvgVpBCRrGhdWrJWZHHSjANBgkqhkiG9w0BAQUFADBhMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBDQTAeFw0wNjExMTAwMDAwMDBaFw0zMTExMTAwMDAwMDBaMGExCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xIDAeBgNVBAMTF0RpZ2lDZXJ0IEdsb2JhbCBSb290IENBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4jvhEXLeqKTTo1eqUKKPC3eQyaKl7hLOllsBCSDMAZOnTjC3U/dDxGkAV53ijSLdhwZAAIEJzs4bg7/fzTtxRuLWZscFs3YnFo97nh6Vfe63SKMI2tavegw5BmV/Sl0fvBf4q77uKNd0f3p4mVmFaG5cIzJLv07A6Fpt43C/dxC//AH2hdmoRBBYMql1GNXRor5H4idq9Joz+EkIYIvUX7Q6hL+hqkpMfT7PT19sdl6gSzeRntwi5m3OFBqOasv+zbMUZBfHWymeMr/y7vrTC0LUq7dBMtoM1O/4gdW7jVg/tRvoSSiicNoxBN33shbyTApOB6jtSj1etX+jkMOvJwIDAQABo2MwYTAOBgNVHQ8BAf8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUA95QNVbRTLtm8KPiGxvDl7I90VUwHwYDVR0jBBgwFoAUA95QNVbRTLtm8KPiGxvDl7I90VUwDQYJKoZIhvcNAQEFBQADggEBAMucN6pIExIK+t1EnE9SsPTfrgT1eXkIoyQY/EsrhMAtudXH/vTBH1jLuG2cenTnmCmrEbXjcKChzUyImZOMkXDiqw8cvpOp/2PV5Adg06O/nVsJ8dWO41P0jmP6P6fbtGbfYmbW0W5BjfIttep3Sp+dWOIrWcBAI+0tKIJFPnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0lsYSEY1QSteDwsOoBrp+uvFRTp2InBuThs4pFsiv9kuXclVzDAGySj4dzp30d8tbQkCAUw7C29C79Fv1C5qfPrmAESrciIxpg0X40KPMbp1ZWVbd4AAAABAAAAAAABAA== request-method GET request-Accept-Encoding gzip, deflate, br response-head HTTP/1.1 200 OK
+Date: Fri, 07 Jan 2022 06:28:07 GMT
+Server: Apache
+X-Content-Type-Options: nosniff
+Content-language: en
+X-UA-Compatible: IE=Edge
+Vary: Accept-Encoding,Cookie
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: private, must-revalidate, max-age=0
+Last-Modified: Thu, 05 Dec 2019 21:29:21 GMT
+Content-Type: text/html; charset=UTF-8
+ original-response-headers Date: Fri, 07 Jan 2022 06:28:07 GMT
+Server: Apache
+X-Content-Type-Options: nosniff
+Content-language: en
+X-UA-Compatible: IE=Edge
+Vary: Accept-Encoding,Cookie
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: private, must-revalidate, max-age=0
+Last-Modified: Thu, 05 Dec 2019 21:29:21 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+ ctid 1 uncompressed-len 0 net-response-time-onstart 1532 net-response-time-onstop 1726   X"
